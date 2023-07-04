@@ -50,6 +50,19 @@
   text-fill-color: transparent;
 }
 
+.banner__text___color {
+  color: linear-gradient(
+    157.81deg,
+    #2f4041 -43.27%,
+    #1f6a6c -21.24%,
+    #02595c 12.19%,
+    #287577 29.82%,
+    #07a0a5 51.94%,
+    #263639 90.29%
+  );
+}
+
+
 .bg-blue-gradient {
   background: linear-gradient(
     157.81deg,
@@ -73,6 +86,7 @@
     #263639 90.29%
   );
 }
+
 
 .bg-black-gradient {
   background: linear-gradient(
@@ -197,9 +211,37 @@
    transition: all 1s ease-in;
  }
  .btn_hero:hover{
-  background-color: #024e58;
+  background-color: #900cdd;
   color: rgb(255, 255, 255);
   
+}
+
+
+.about__hero__btn{
+  width: 200px;
+  display: block;
+  margin: auto;
+  height: 50px;
+  border-radius: 50px;
+  color: #046a77;
+  background-color: #ffff;
+  transition: all 1s ease-in;
+}
+.about__hero__btn:hover{
+ background-color: #024e58;
+ color: rgb(255, 255, 255);
+ 
+}
+
+
+.text__icon{
+ 
+  color: #fcfcfc;
+  transition: all 1s ease-in;
+}
+.text__icon:hover{
+color: rgb(2, 204, 204);
+ 
 }
 
 /* doctor Blog design  */

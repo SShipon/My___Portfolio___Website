@@ -37,7 +37,7 @@ const Contact = () => {
       style={{
       /*   background: `url(${appointment})`, */
       }}
-       className="bg_background_color"
+       className="bg_background_color sm:mx-20 sm:my-12"
     >
       <div className="text-center pb-14 text-white contact_content">
         <br />
