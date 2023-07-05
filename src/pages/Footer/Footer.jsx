@@ -50,8 +50,8 @@ const Footer = () => {
         <div className="mx-10 ">
             <input
               type="text"
-              placeholder="Type here"
-              className="input input-bordered input-warning sm:w-full max-w-xs"
+              placeholder="Search here"
+              className="input input-bordered input-secondary sm:w-full max-w-xs"
             />
           </div>
 
@@ -74,6 +74,7 @@ const Footer = () => {
       </div>
       <CopyRight></CopyRight>
         <ColorRing></ColorRing>
+        <a className="text-white text-right block text-3xl font-semibold py-6 text-fuchsia-700" id="#" href=""><i className="fa-solid fa-arrow-up"></i></a>
     </section>
   );
 };

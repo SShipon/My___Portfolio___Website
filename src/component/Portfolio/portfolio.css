@@ -84,3 +84,56 @@
   .active-content {
     display: block;
   }
+
+  @media only screen and (max-width: 600px) {
+    .tabs {
+  
+      padding: 8px;
+      text-align: center;
+      width: 50%;
+      background: linear-gradient(
+      157.81deg,
+      #2f4041 -43.27%,
+      #8748a7 -21.24%,
+      #263c3d 12.19%,
+      #8bb8c0 29.82%,
+      #07a0a5 51.94%,
+      #263639 90.29%
+    );
+      cursor: pointer;
+      border-bottom: 1px solid rgba(247, 93, 93, 0.274);
+      box-sizing: content-box;
+      position: relative;
+      outline: none;
+    }
+  
+  }
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .tabs {
+  
+    padding: 8px;
+    text-align: center;
+    width: 50%;
+    background: linear-gradient(
+    157.81deg,
+    #2f4041 -43.27%,
+    #8748a7 -21.24%,
+    #263c3d 12.19%,
+    #8bb8c0 29.82%,
+    #07a0a5 51.94%,
+    #263639 90.29%
+  );
+    cursor: pointer;
+    border-bottom: 1px solid rgba(247, 93, 93, 0.274);
+    box-sizing: content-box;
+    position: relative;
+    outline: none;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */

@@ -13,7 +13,7 @@ export default function CopyRight() {
     }, [])
   return (
     <>
-    <p className=' text-right lg:mr-10 text-bold text-white'> &copy; oxshipon@gmail.com - {date}</p>
+    <p className=' text-left lg:mr-10 text-bold text-white'> &copy; oxshipon@gmail.com - {date}</p>
     </>
   );
 }

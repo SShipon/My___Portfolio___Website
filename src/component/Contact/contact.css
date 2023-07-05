@@ -4,3 +4,6 @@
 .contact_content{
     font-family: var(--font-family);
 }
+input, textarea{
+  color: #fff;
+}

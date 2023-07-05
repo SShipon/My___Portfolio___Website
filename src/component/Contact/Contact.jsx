@@ -38,7 +38,7 @@ const Contact = () => {
       style={{
       /*   background: `url(${appointment})`, */
       }}
-       className="bg_background_color  sm:my-12"
+       className="sm:my-12"
     >
       <div className="text-center pb-14 text-white contact_content">
         <br />
@@ -55,25 +55,25 @@ const Contact = () => {
                 type="text"
                 placeholder="Name*"
                 name="user_name}"
-                className="input w-full max-w-md"
+                className="input w-full  max-w-md input-bordered input-secondary "
                 required
               />
               <input
                 type="text"
                 placeholder="Email Address*"
                 name="user_email"
-                className="input w-full max-w-md"
+                className="input w-full max-w-md input-bordered input-secondary "
                 required
               />
               <input
                 type="text"
                 placeholder="Subject*"
                 name="from_name"
-                className="input w-full max-w-md"
+                className="input w-full max-w-md input-bordered input-secondary "
                 required
               />
               <textarea
-                className="textarea w-full max-w-md"
+                className="textarea w-full max-w-md input-bordered input-secondary "
                 placeholder="Your message*"
                 name="message"
                 required
