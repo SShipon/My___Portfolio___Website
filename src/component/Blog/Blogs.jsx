@@ -42,10 +42,10 @@ const Blogs = () => {
    
     
     return (
-       <section className='sm:px-14 sm:py-14 mx-4'>
+       <section className=''>
                 <div className='text-center'>
-                  <h4 className='sm:text-5xl font-bold  italic text-white '>  What we care for</h4>
-                  <p className='sm:text-2xl sm:py-5 text-white  italic'>Making professional therapy accessible</p>
+                  <h4 className='sm:text-5xl font-bold italic text-white my-10'>  What we care for</h4>
+                  <p className='sm:text-2xl text-white  italic'>Making professional therapy accessible</p>
                 </div>
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
              {

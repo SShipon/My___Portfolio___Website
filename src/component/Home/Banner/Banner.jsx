@@ -6,21 +6,21 @@ import BannerAnimate from './BannerAnimate';
 
 const Banner = () => {
     const [text] = useTypewriter({
-        words: ['I am ', 'Shipon 👨', 'Professional','Frontend Developer ', 'Mern Stack Developer','SEO Developer',''],
+        words: ['I am ', 'Shipon', 'Professional','Frontend Developer ', 'Mern Stack Developer','SEO Developer',''],
         loop: 0
       })
     
     return (
         <div className=' grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between items-center'>
            <div>
-           <h1 className='text-3xl font-extrabold' >Hey There  { ''}
-            <span className='text-gradient text-3xl' style={{fontWeight:'bold',}}>{text}</span>
+           <h1 className='text-xl lg:text-3xl font-extrabold mt-8 text-white' >Hey There  { ''}
+            <span className='text-gradient text-xl lg:text-3xl font-extrabold' style={{fontWeight:'bold',}}>{text}</span>
            <span className='text-3xl text-sky-600'>
            <Cursor cursorStyle='//' />
            </span>
            </h1>
            <br />
-           <p className='text-white'>I am Professional <span className=' text-cyan-400'>SEO Developer</span> With <span className=' text-cyan-500'>Frontend And Backend </span><br /> Web Development Skills Based on Client Desire.</p>
+           <p className='text-white lg:w-2/3 text-lg  lg:text-xl'>I am Professional <span className=' text-cyan-400'>SEO Developer</span> With <span className=' text-cyan-500'>Frontend And Backend </span>Web Development Skills Based on Client Desire.</p>
            <br />
           <div>
           <a href={resume} download>

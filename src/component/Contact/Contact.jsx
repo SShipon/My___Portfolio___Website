@@ -4,6 +4,7 @@ import emailjs from "@emailjs/browser";
 import './contact.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import ContactAnimate from "./ContactAnimate";
 const Contact = () => {
   const form = useRef();
 
@@ -37,7 +38,7 @@ const Contact = () => {
       style={{
       /*   background: `url(${appointment})`, */
       }}
-       className="bg_background_color sm:mx-20 sm:my-12"
+       className="bg_background_color  sm:my-12"
     >
       <div className="text-center pb-14 text-white contact_content">
         <br />
@@ -46,7 +47,7 @@ const Contact = () => {
         <h1 className="lg:text-4xl sm:text-3xl">Stay connected with us</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-     
+         <ContactAnimate />
         <div className="w-[100%]">
           <form ref={form} onSubmit={sendEmail}>
             <div className="grid grid-cols-1 justify-items-center gap-5">
@@ -85,7 +86,7 @@ const Contact = () => {
             <br />
           </form>
         </div>
-       
+         
       </div>
       <ToastContainer />
     </section>

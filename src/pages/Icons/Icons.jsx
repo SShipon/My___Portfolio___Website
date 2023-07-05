@@ -7,6 +7,7 @@ const Icons = () => {
                 <a href="https://www.linkedin.com/in/sh-shipon-5373b9241/"><i className="fa-brands fa-linkedin text__icon"></i></a>
                 <a href="https://github.com/SShipon"><i className="fa-brands fa-github text__icon"></i></a>
                 <a href=""><i className="fa-brands fa-square-instagram text__icon"></i></a>
+                
             </div>
     );
 };
