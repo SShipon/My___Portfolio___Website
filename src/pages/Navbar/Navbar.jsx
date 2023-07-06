@@ -1,18 +1,30 @@
 
+import { useState } from "react";
+import './navbar.css'
 import { NavHashLink } from "react-router-hash-link";
 const Navbar = () => {
-  
+  const [colorChange, setColorChange] = useState(false);
+  const changeNavbarColor = () => {
+      if (window.scrollY >= 80) {
+          setColorChange(true);
+      }
+      else {
+          setColorChange(false);
+      }
+  };
+  window.addEventListener('scroll', changeNavbarColor);
+
     const navItems = <>
         <li ><NavHashLink style={{ backgroundColor:'transparent', color: '#ffff'}} to="/home#home">Home</NavHashLink></li>
         <li ><NavHashLink style={{ backgroundColor:'transparent', color: '#ffff'}} to="/home#portfolio">Portfolio</NavHashLink></li>
-        <li ><NavHashLink style={{ backgroundColor:'transparent', color: "#ffff"}} to="/home#about">About</NavHashLink></li>
         <li ><NavHashLink style={{ backgroundColor:'transparent', color:" #ffff"}} to="/home#contact">Contact</NavHashLink></li>
-        <li ><NavHashLink style={{ backgroundColor:'transparent', color: "#ffff"}} to="/home#blog">Blog</NavHashLink></li>
+        <li ><NavHashLink style={{ backgroundColor:'transparent', color: "#ffff"}} to="/home#about">About</NavHashLink></li>
+        <li ><NavHashLink style={{ backgroundColor:'transparent', color: "#ffff"}} to="/home#blogs">Blog</NavHashLink></li>
         <li ><NavHashLink style={{ backgroundColor:'transparent', color: "#ffff"}} to="/home#coming">coming</NavHashLink></li>
     </>
     return (
         <div className="">
-     <div className="navbar bg-slate-500 text-white fixed top-0 z-10">
+     <div  className={colorChange ? 'navbar colorChange' : 'navbar  fixed top-0 z-10 bg-slate-200'}>
   <div className="navbar-start container mx-12">
     <div className="dropdown">
       <label tabIndex={0} className="lg:hidden">
@@ -22,7 +34,7 @@ const Navbar = () => {
        {navItems}
       </ul>
     </div>
-    <a className=" normal-case text-xl">Shipon</a>
+    <a className=" normal-case text-xl text-white">Shipon</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 font-semibold">

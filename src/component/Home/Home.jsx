@@ -9,8 +9,8 @@ const Home = () => {
         <div className="mx-6 lg:mx-20 sm:my-12">
             <Banner></Banner>
             <Portfolio />
-            <Blogs />
             <Contact />
+            <Blogs />
             <About/>
         </div>
     );

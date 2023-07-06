@@ -59,7 +59,7 @@ const Portfolio = () => {
           >
             <h2>Content 2</h2>
             <hr />
-           <Blogs></Blogs>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui laboriosam facilis totam! Alias nesciunt rerum laboriosam at dolor. Voluptas, repellendus.</p>
           </div>
   
           <div
