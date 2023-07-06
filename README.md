@@ -2,9 +2,10 @@
 
 
 # ----------technology-------------
-**** react router dom
+* react router dom
+* react-router-hash-link
+   tabs
 
-<!-- npm i react-router-hash-link -->
 
 <!-- npm i react-image-gallery -->
 
