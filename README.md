@@ -1,10 +1,18 @@
 # My_Portfolio_website
 
 
-# ----------technology-------------
+# ----------My Portfolio technology Use-------------
+* emailjs
+* lottie-react
 * react router dom
 * react-router-hash-link
-   tabs
+* tabs
+* react-dom
+* react-loader-spinner
+* react-simple-typewriter
+* react-toastify
+
+
 
 
 <!-- npm i react-image-gallery -->
