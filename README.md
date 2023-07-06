@@ -2,7 +2,7 @@
 
 
 # ----------technology-------------
-*** react router dom
+**** react router dom
 
 <!-- npm i react-router-hash-link -->
 
