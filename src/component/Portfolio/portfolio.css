@@ -48,7 +48,7 @@
     transform: translateX(-50%);
     width: calc(100% + 2px);
     height: 5px;
-    background: rgb(206, 4, 206);
+    background: #ffffff;
   }
   
   
@@ -112,7 +112,7 @@
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
   .tabs {
-  
+    
     padding: 8px;
     text-align: center;
     width: 50%;

@@ -2,8 +2,8 @@
 
 const About = () => {
     return (
-        <div className="container">
-            
+        <div id='about' className="container">
+            <h1>this is hello dear</h1>
         </div>
     );
 };

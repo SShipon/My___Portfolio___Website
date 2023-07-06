@@ -42,7 +42,7 @@ const Blogs = () => {
    
     
     return (
-       <section className=''>
+       <section id='blog' className=''>
                 <div className='text-center'>
                   <h4 className='sm:text-5xl font-bold italic text-white my-10'>  What we care for</h4>
                   <p className='sm:text-2xl text-white  italic'>Making professional therapy accessible</p>

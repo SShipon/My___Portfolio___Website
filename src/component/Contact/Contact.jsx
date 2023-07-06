@@ -34,7 +34,7 @@ const Contact = () => {
     e.target.reset();
   };
   return (
-    <section
+    <section id="contact"
       style={{
       /*   background: `url(${appointment})`, */
       }}

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './portfolio.css'
+import Blogs from "../Blog/Blogs";
 
 const Portfolio = () => {
  
@@ -11,7 +12,7 @@ const Portfolio = () => {
 
    
     return (
-        <div className="container">
+        <div id="portfolio" className="container">
             <h3 className="text-3xl text-gradient font-extrabold text-center my-10">My Latest All Projects </h3>
         <div className="bloc-tabs">
           <button
@@ -58,10 +59,7 @@ const Portfolio = () => {
           >
             <h2>Content 2</h2>
             <hr />
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente
-              voluptatum qui adipisci.
-            </p>
+           <Blogs></Blogs>
           </div>
   
           <div
