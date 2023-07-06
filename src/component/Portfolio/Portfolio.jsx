@@ -1,6 +1,5 @@
 import { useState } from "react";
 import './portfolio.css'
-import Blogs from "../Blog/Blogs";
 
 const Portfolio = () => {
  
