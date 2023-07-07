@@ -13,7 +13,7 @@ const Banner = () => {
     return (
         <div id='home' className=' grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 justify-between items-center'>
            <div>
-           <h1 className='text-xl lg:text-3xl font-extrabold mt-8 text-white' >Hey There  { ''}
+           <h1 className='text-xl lg:text-3xl font-extrabold mt-20 lg:mt-8 text-white' >Hey There  { ''}
             <span className='text-gradient text-xl lg:text-3xl font-extrabold' style={{fontWeight:'bold',}}>{text}</span>
            <span className='text-3xl text-sky-600'>
            <Cursor cursorStyle='//' />

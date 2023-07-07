@@ -1,0 +1,32 @@
+line__bar{
+  color: rgb(34, 164, 173);
+  padding: 20px;
+
+}
+.text-footer{
+  border: 1px solid rgb(197, 12, 114);
+  margin: 10px;
+  border-radius: 50px;
+  position: relative;
+  padding: 20px;
+ 
+}
+.text-footer:hover{
+    border: 1px solid rgb(15, 148, 201);
+    margin: 10px;
+    color: #ffff;
+    border-radius: 50px;
+    position: relative;
+    padding: 20px;
+   
+  }
+.text-footer p{
+    text-align: center;
+    margin-left: 40px;
+    position: absolute;
+   
+}
+
+@media screen {
+    
+}

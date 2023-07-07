@@ -42,11 +42,13 @@ const Blogs = () => {
    
     
     return (
-       <section id='blogs'>
-                <div className='text-center'>
-                  <h4 className='sm:text-5xl font-bold italic text-white my-10'>  What we care for</h4>
-                  <p className='sm:text-2xl text-white  italic'>Making professional therapy accessible</p>
+       <section id='blogs' className='flex justify-center items-center flex-col lg:flex-col flex-row'>
+                <div className='text-center '>
+                  <h4 className=' text-3xl lg:text-5xl font-bold italic text-white  lg:my-6'>  What we care for</h4>
+                  <p className='text-2xl lg:text-3xl text-white  italic p-4'>Making professional therapy accessible</p>
                 </div>
+                <br />
+                <br />
             <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6'>
              {
               professionalServices.map(professional=><Blog

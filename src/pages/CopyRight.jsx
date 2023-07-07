@@ -13,7 +13,7 @@ export default function CopyRight() {
     }, [])
   return (
     <>
-    <p className=' text-left lg:mr-10 text-bold text-white'> &copy; oxshipon@gmail.com - {date}</p>
+    <p className=' text-center lg:py-10  text-bold text-white'>  Copyright &copy; {date} oxshipon@gmail.com-</p>
     </>
   );
 }
