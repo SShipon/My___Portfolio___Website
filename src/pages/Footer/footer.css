@@ -1,39 +1,43 @@
-
-.text-footer{
+.contact__page__color{
   border: 1px solid rgb(197, 12, 114);
-  margin: 10px;
+  width: 250px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.contact__page__color:hover{
+  border: 1px solid rgb(15, 148, 201);
+  color: #ffff;
   border-radius: 50px;
   position: relative;
-  padding: 20px;
- 
- 
 }
-.text-footer:hover{
-    border: 1px solid rgb(15, 148, 201);
-    margin: 10px;
-    color: #ffff;
-    border-radius: 50px;
-    position: relative;
-    padding: 20px;
-   
+  .text-color a{
+    color: #b4abab !important;
   }
-.text-footer p{
-    text-align: center;
-    margin-left: 40px;
-    position: absolute;
-   
+
+.text-color:hover a{
+  color: #ffff !important;
 }
 
-/* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
-  .text-footer{
-    width: 100%;
-    border: 1px solid rgb(197, 12, 114);
-    border-radius: 50px;
-    position: relative;
+
+
+
+
+
+
+
+ @media only screen and (max-width: 600px) {
+  
+    .contact__page__color{
+      border: 1px solid rgb(197, 12, 114);
+       width: 100%;
+       padding: 10px;
+      border-radius: 50px;
+    }
+    
    
    
-  }
+  
   
   .text-footer p{
       text-align: center;
@@ -49,7 +53,8 @@
   .text-footer{
    
     border: 1px solid rgb(197, 12, 114);
-
+    width: 100%;
+    padding: 10px;
     border-radius: 50px;
     position: relative;
   
@@ -66,7 +71,7 @@
     }
   .text-footer p{
       text-align: center;
-     
+      padding: 10px;
       position: absolute;
      
   }
@@ -76,7 +81,8 @@
 @media only screen and (min-width: 768px) {
   .text-footer{
     border: 1px solid rgb(197, 12, 114);
- 
+    width: 100%;
+    padding: 10px;
     border-radius: 50px;
     position: relative;
  
@@ -98,6 +104,3 @@
   }
 }
 
-@media only screen and (min-width: 992px) {}
-
-@media only screen and (min-width: 1200px) {}

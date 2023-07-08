@@ -47,7 +47,9 @@ const Contact = () => {
         <h1 className="lg:text-4xl sm:text-3xl">Stay connected with us</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-         <ContactAnimate />
+      <div className="w-[100%]">
+      <ContactAnimate />
+      </div>
         <div className="w-[100%]">
           <form ref={form} onSubmit={sendEmail}>
             <div className="grid grid-cols-1 justify-items-center gap-5">

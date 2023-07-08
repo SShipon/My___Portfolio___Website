@@ -9,38 +9,40 @@ const Footer = () => {
       <br />
       <div className="flex flex-col lg:flex-row justify-between sm:items-enter">
         <div className="w-2/2 lg:w-3/7 ">
-          <div className="grid grid-cols-2 lg:gap-10 gap-4 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-2 lg:gap-10 gap-6 md:grid-cols-2 lg:grid-cols-4">
             <div className="">
-              <span>Support</span>
-                 <div className="text-footer flex flex-col">
-                 <i className="fa-solid fa-phone"></i>
-                    <p>10:00am to 12:00am</p>
-                   
-                 </div>
-                 <div className="text-footer flex flex-col">
-                 <i className="fa-solid fa-location-dot"></i>
-                    <p>Store Locator</p>
-                   
-                 </div>
+              <span className="text-xl text-white">Support</span>
+            
+                 <div className="mt-4">
+                     <div className="flex gap-2 justify-center items-center p-2 contact__page__color">
+                       <i className="fa-solid fa-phone"></i>
+                        <p>10:00am to 12:00am</p>
+                       </div>
+                       <br />
+                       <div className="flex gap-2 justify-center items-center p-2 contact__page__color">
+                        <i className="fa-solid fa-location-dot"></i>
+                       <p>Store Locator Details</p>
+                       </div>
+                  </div> 
             </div>
-            <div>
-            <span>Quick Link</span>
+            <div className="text-color">
+            <span  className="text-xl text-white">Quick Link</span>
               <p>Upcoming Live Batch</p>
               <p>Live Workshop.</p>
               <p>Guide to Writing a Travel Blog</p>
               <p>Stay connected with the community.</p>
               <p>Help Center All Support</p>
             </div>
-            <div>
-            <span>Contacts</span>
-              <p>+08801703059461</p>
-              <p>nxshipon@gamil.com</p>
-              <p>Level-4, House-6 Cumilla Kandipar Dhaka Bangladesh</p>
-              <p>(Available : 10:00am to 12:00am)</p>
-              <p> Contact Us</p>
+            <div className="text-color">
+            <span  className="text-xl text-white">Contacts</span>
+              <a href=""> <p>+08801703059461</p></a>
+              <a href=""><p>nxshipon@gamil.com</p></a>
+              <a href=""><p>Level-4, House-6 Cumilla Kandipar Dhaka Bangladesh</p></a>
+              <a href=""><p>(Available : 10:00am to 12:00am)</p></a>
+               <a href=""><p> Contact Us</p></a>
             </div>
-            <div>
-            <span>tems</span>
+            <div className="text-color">
+            <span  className="text-xl text-white">Details Center</span>
               <p>Home</p>
               <p>About us</p>
               <p>Success Page</p>
@@ -52,7 +54,7 @@ const Footer = () => {
         </div>
          
         <div className="w-2/2 my-10 lg:w-1/8 flex flex-col justify-center items-center">
-        <span className="-mt-10">Follow us</span> 
+        <span className="-mt-10 text-xl text-white ">Follow us</span> 
         <div className="mx-10 my-6">
             <input
               type="text"
@@ -69,7 +71,6 @@ const Footer = () => {
                 <a href="https://github.com/SShipon"><i className="fa-brands fa-github text__icon"></i></a>
                 <a href=""><i className="fa-brands fa-square-instagram text__icon"></i></a>
                 <a href=""><i className="fa-brands fa-twitter"></i></a>
-                <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox"><i className="fa-solid fa-envelope"></i></a>
                 
             </div>
           
