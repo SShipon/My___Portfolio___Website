@@ -3,16 +3,16 @@ import CopyRight from "../CopyRight";
 import './footer.css'
 const Footer = () => {
   return (
-    <section className="mx-12">
+    <section className="mx-4">
       <hr className="line__bar" />
       <br />
       <br />
       <div className="flex flex-col lg:flex-row justify-between sm:items-enter">
         <div className="w-2/2 lg:w-3/7 ">
-          <div className="grid grid-cols-2 gap-6 md:grid-cols-2 lg:grid-cols-4">
-            <div>
+          <div className="grid grid-cols-2 lg:gap-10 gap-4 md:grid-cols-2 lg:grid-cols-4">
+            <div className="">
               <span>Support</span>
-                 <div className="text-footer flex flex-col ">
+                 <div className="text-footer flex flex-col">
                  <i className="fa-solid fa-phone"></i>
                     <p>10:00am to 12:00am</p>
                    

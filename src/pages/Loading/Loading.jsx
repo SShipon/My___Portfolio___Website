@@ -1,20 +1,37 @@
-import { BallTriangle } from "react-loader-spinner";
+import { useLottie } from "lottie-react";
+
+import data5 from "../../assets/animate/38321-loading.json";
 
 const Loading = () => {
-    return (
-<div className="w-100 flex items-center justify-center">
-<BallTriangle
-  height={100}
-  width={100}
-  radius={5}
-  color="#4fa94d"
-  ariaLabel="ball-triangle-loading"
-  wrapperClass={{}}
-  wrapperStyle=""
-  visible={true}
-/> 
-        </div>
-    );
+    const style = {
+      margin: "auto",
+      width: "500px",
+      height: "auto",
+      color: "black",
+    };
+
+  const options = {
+    animationData:data5,
+    loop: true,
+    autoplay: true, 
+  };
+
+  const { View } = useLottie(options, style);
+
+  return (
+    <div
+      style={{
+        display: "flex",
+        justifyContent: "center",
+        alignItems: "center",
+        width: "100vw",
+        height: "100vh",
+        backgroundColor:"black"
+      }}
+    >
+      {View}
+    </div>
+  );
 };
 
 export default Loading;

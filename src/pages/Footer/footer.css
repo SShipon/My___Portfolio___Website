@@ -1,14 +1,11 @@
-line__bar{
-  color: rgb(34, 164, 173);
-  padding: 20px;
 
-}
 .text-footer{
   border: 1px solid rgb(197, 12, 114);
   margin: 10px;
   border-radius: 50px;
   position: relative;
   padding: 20px;
+ 
  
 }
 .text-footer:hover{
@@ -27,6 +24,80 @@ line__bar{
    
 }
 
-@media screen {
-    
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .text-footer{
+    width: 100%;
+    border: 1px solid rgb(197, 12, 114);
+    border-radius: 50px;
+    position: relative;
+   
+   
+  }
+  
+  .text-footer p{
+      text-align: center;
+      left:0;
+      right: 0;
+      position: absolute;
+     
+  }
 }
+
+
+@media only screen and (min-width: 600px) {
+  .text-footer{
+   
+    border: 1px solid rgb(197, 12, 114);
+
+    border-radius: 50px;
+    position: relative;
+  
+   
+  }
+  .text-footer:hover{
+      border: 1px solid rgb(15, 148, 201);
+      margin: 10px;
+      color: #ffff;
+      border-radius: 50px;
+      position: relative;
+    
+     
+    }
+  .text-footer p{
+      text-align: center;
+     
+      position: absolute;
+     
+  }
+}
+
+
+@media only screen and (min-width: 768px) {
+  .text-footer{
+    border: 1px solid rgb(197, 12, 114);
+ 
+    border-radius: 50px;
+    position: relative;
+ 
+   
+  }
+  .text-footer:hover{
+      border: 1px solid rgb(15, 148, 201);
+    
+      color: #ffff;
+      border-radius: 50px;
+      position: relative;
+    
+     
+    }
+  .text-footer p{
+      text-align: center;
+      position: absolute;
+     
+  }
+}
+
+@media only screen and (min-width: 992px) {}
+
+@media only screen and (min-width: 1200px) {}
