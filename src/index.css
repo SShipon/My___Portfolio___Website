@@ -247,6 +247,8 @@
   background-color: #ffff;
   transition: all 1s ease-in;
 }
+
+/* this is hello */
 .about__hero__btn:hover{
  background-color: #024e58;
  color: rgb(255, 255, 255);
