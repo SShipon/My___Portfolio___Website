@@ -2,6 +2,7 @@
 import { useState } from "react";
 import './navbar.css'
 import { NavHashLink } from "react-router-hash-link";
+ import images from '../../assets/imgIcon/shipon.png'
 const Navbar = () => {
   const [colorChange, setColorChange] = useState(false);
   const changeNavbarColor = () => {
@@ -41,8 +42,28 @@ const Navbar = () => {
        {navItems}
     </ul>
   </div>
-</div>
+  <div className="dropdown dropdown-end">
+      <label tabIndex={0} className="btn btn-ghost btn-circle avatar">
+        <div className="w-10 rounded-full">
+          <img src={images} />
         </div>
+      </label>
+      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+        <li>
+          <a className="justify-between">
+            Profile
+            <span className="badge">New</span>
+          </a>
+        </li>
+        <li>
+       
+        </li>
+        <li><a>Logout</a></li>
+      </ul>
+    </div>
+</div>
+
+ </div>
     );
 };
 

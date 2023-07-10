@@ -71,7 +71,7 @@ const Footer = () => {
                 <a href="https://github.com/SShipon"><i className="fa-brands fa-github text__icon"></i></a>
                 <a href=""><i className="fa-brands fa-square-instagram text__icon"></i></a>
                 <a href=""><i className="fa-brands fa-twitter"></i></a>
-                
+               
             </div>
           
           </div>

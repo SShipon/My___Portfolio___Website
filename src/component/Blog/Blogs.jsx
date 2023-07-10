@@ -1,40 +1,43 @@
 
-import background from '../../assets/imgIcon/background.png'
-import flight from '../../assets/imgIcon/man.png'
-import man from '../../assets/imgIcon/man1.png'
 import world from '../../assets/imgIcon/world.png'
 import Blog from './Blog';
+import BlogIcon from './SvgIcon/BlogIcon';
+import Four from './SvgIcon/Four';
+import Second from './SvgIcon/Second';
+import Third from './SvgIcon/Third';
+
+
+
 
 const Blogs = () => {
-
     const professionalServices =[
         {
             id:1,
-            icon:background,
+            icon: <BlogIcon/>,
             name:'Licenced Providers',
-            description:'uis pellentesque tincidunt accumsan, in ut, consequat.',
+            description:'Service Content means the audio and visual information, documents, software, products and services contained or made available',
             bgClass:'bg-gradient'
         },
         {
             id:2,
-            icon:flight,
+            icon:<Second/>,
             name:' Telemedicine Available',
-            description:'Pellentesque habitant morbi tristique senectus et netus.',
+            description:'Service Content means the audio and visual information, documents, software, products and services contained or made available',
             bgClass:'bg-gradient_one'
         },
         {
             id:3,
-            icon:man,
+            icon:<Third/>,
             name:' Insurance Partners',
-            description:'Sed in anteet urna auctor id, arcu in, dignissim magna.',
+            description:'Service Content means the audio and visual information, documents, software, products and services contained or made available.',
             phone:'+880170305946512',
             bgClass:'bg-gradient_there'
         },
         {
             id:4,
-            icon:world,
+            icon:<Four/>,
             name:' Schedules   Visits.',
-            description:'Nam magna justo, quam ut, consequat fringilla metus.',
+            description:'Service Content means the audio and visual information, documents, software, products and services contained or made available.',
             phone:'+880170305946512',
             bgClass:'bg-gradient_four'
         }
@@ -44,7 +47,7 @@ const Blogs = () => {
     return (
        <section id='blogs' className='flex justify-center items-center flex-col lg:flex-col flex-row'>
                 <div className='text-center '>
-                  <h4 className=' text-3xl lg:text-5xl font-bold italic text-white  lg:my-6'>  What we care for</h4>
+                  <h4 className=' text-3xl lg:text-5xl font-bold italic text-white  lg:my-6 text-gradient'>  What we care for</h4>
                   <p className='text-2xl lg:text-3xl text-white  italic p-4'>Making professional therapy accessible</p>
                 </div>
                 <br />
