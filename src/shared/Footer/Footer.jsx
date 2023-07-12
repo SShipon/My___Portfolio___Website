@@ -1,5 +1,6 @@
 
-import CopyRight from "../CopyRight";
+
+import CopyRight from '../CopyRight';
 import './footer.css'
 const Footer = () => {
   return (

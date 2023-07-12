@@ -1,8 +1,8 @@
 
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import resume from '../../../assets/Shipon resume (3).pdf'
-import Icons from '../../../pages/Icons/Icons';
 import BannerAnimate from './BannerAnimate';
+import Icons from '../../../shared/Icons/Icons';
 
 const Banner = () => {
     const [text] = useTypewriter({
@@ -28,7 +28,7 @@ const Banner = () => {
           </a>
           </div>
             <div>
-               <Icons></Icons>
+              <Icons></Icons>
             </div>
            </div>
 
