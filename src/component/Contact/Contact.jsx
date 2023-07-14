@@ -43,7 +43,7 @@ const Contact = () => {
       <div className="text-center pb-14 text-white contact_content">
         <br />
         <br />
-        <p className="text-4xl font-bold text-primary">Contact Us</p>
+        <p className="text-4xl font-bold text-gradient">Contact Us</p>
         <h1 className="lg:text-4xl sm:text-3xl">Stay connected with us</h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
@@ -57,31 +57,31 @@ const Contact = () => {
                 type="text"
                 placeholder="Name*"
                 name="user_name}"
-                className="input w-full  max-w-md input-bordered input-secondary "
+                className="input w-full  max-w-md input-bordered input-info "
                 required
               />
               <input
                 type="text"
                 placeholder="Email Address*"
                 name="user_email"
-                className="input w-full max-w-md input-bordered input-secondary "
+                className="input w-full max-w-md input-bordered input-info "
                 required
               />
               <input
                 type="text"
                 placeholder="Subject*"
                 name="from_name"
-                className="input w-full max-w-md input-bordered input-secondary "
+                className="input w-full max-w-md input-bordered input-info "
                 required
               />
               <textarea
-                className="textarea w-full max-w-md input-bordered input-secondary "
+                className="textarea w-full max-w-md input-bordered input-info "
                 placeholder="Your message*"
                 name="message"
                 required
                 rows={6}
               ></textarea>
-             <button className="btn btn-outline btn-secondary w-full max-w-md" type="Submit" value="send">Submit</button>
+             <button className="btn btn-outline btn-info w-full max-w-md" type="Submit" value="send">Submit</button>
             </div>
             <br />
 

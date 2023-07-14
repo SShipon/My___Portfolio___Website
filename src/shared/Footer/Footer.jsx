@@ -60,7 +60,7 @@ const Footer = () => {
             <input
               type="text"
               placeholder="Search here"
-              className="input input-bordered input-secondary sm:w-full max-w-xs"
+              className="input input-bordered input-info sm:w-full max-w-xs"
             />
           </div>
 
