@@ -47,9 +47,8 @@ const Portfolio = () => {
             <h2>Content 1</h2>
             <hr />
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
-              praesentium incidunt quia aspernatur quasi quidem facilis quo nihil
-              vel voluptatum?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolores!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque architecto beatae distinctio harum nam neque officiis assumenda atque ipsum.
             </p>
           </div>
   
@@ -59,6 +58,7 @@ const Portfolio = () => {
             <h2>Content 2</h2>
             <hr />
          <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui laboriosam facilis totam! Alias nesciunt rerum laboriosam at dolor. Voluptas, repellendus.</p>
+         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, saepe eligendi. Veniam, explicabo a. Quidem quae expedita repellat! Provident, quam!</p>
           </div>
   
           <div
