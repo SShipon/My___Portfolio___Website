@@ -1,5 +1,6 @@
 import { useState } from "react";
 import './portfolio.css'
+import CssProjects from "./CssProjects/CssProjects";
 
 const Portfolio = () => {
  
@@ -44,12 +45,9 @@ const Portfolio = () => {
           <div
             className={toggleState === 1 ? "content  active-content" : "content"}
           >
-            <h2>Content 1</h2>
+            <h2>Html and css Projects</h2>
             <hr />
-            <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, dolores!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos doloremque architecto beatae distinctio harum nam neque officiis assumenda atque ipsum.
-            </p>
+            <CssProjects></CssProjects>
           </div>
   
           <div
@@ -66,14 +64,7 @@ const Portfolio = () => {
           >
             <h2>Content 4</h2>
             <hr />
-            <p>
-              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos sed
-              nostrum rerum laudantium totam unde adipisci incidunt modi alias!
-              Accusamus in quia odit aspernatur provident et ad vel distinctio
-              recusandae totam quidem repudiandae omnis veritatis nostrum
-              laboriosam architecto optio rem, dignissimos voluptatum beatae
-              aperiam voluptatem atque. Beatae rerum dolores sunt.
-            </p>
+             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, alias.</p>
           </div>
           <div
             className={toggleState === 4 ? "content  active-content" : "content"}
