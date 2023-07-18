@@ -1,5 +1,4 @@
 
-import world from '../../assets/imgIcon/world.png'
 import Blog from './Blog';
 import BlogIcon from './SvgIcon/BlogIcon';
 import Four from './SvgIcon/Four';
