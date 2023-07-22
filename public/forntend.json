@@ -1,0 +1,20 @@
+[
+    {
+      "id":1,
+      "name":"Phone shop limited",
+      "des":"",
+      "img":"https://i.ibb.co/qBvR8Mw/127-0-0-1-5501-index-html.png"
+    },
+    {
+    "id":2, 
+    "name":"Camera shop",
+    "des":"",
+    "img":"https://i.ibb.co/rwfv2TV/127-0-0-1-5501-index-html-3.png"
+    },
+    {
+    "id":3, 
+    "name":"We Provide Effective Legal Solutions",
+    "des":"",
+    "img":"https://i.ibb.co/v3V0Bbr/127-0-0-1-5500-index-html.png"
+    }
+    ]
