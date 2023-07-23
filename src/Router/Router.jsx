@@ -6,6 +6,7 @@ import Contact from "../component/Contact/Contact";
 import Coming from "../component/Coming/Coming";
 import Home from "../component/Home/Home";
 import Blogs from "../component/Blog/Blogs";
+import AllDetails from "../component/allDetails/AllDetails";
 
 
 export const router = createBrowserRouter([
@@ -32,6 +33,11 @@ export const router = createBrowserRouter([
        path:'/portfolio',
        element:<Portfolio></Portfolio>
        
+    },
+    {
+     path:'/details:id',
+     element:<AllDetails></AllDetails>
+    
     },
 
     {
