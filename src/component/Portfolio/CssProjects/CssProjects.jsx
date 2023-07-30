@@ -4,26 +4,35 @@ import CssProject from "./CssProject";
 
 
 const CssProjects = () => {
+
     const [projects, setProjects] = useState([])
     useEffect(()=>{
-      fetch('cssProject.json')
+      fetch('fullStack.json')
       .then(res => res.json())
-      .then(data => setProjects(data))
+      .then(data => setProjects(data.css))
       
     },[])
     return (
+
         <div>
-             <h1>{projects.length}</h1> 
+       
+          {!projects?<p className="text-white text-7xl">.....loading</p>:
+             
+        
+         
              <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
                 {
-                projects.map(project=><CssProject
+                projects?.map(project=><CssProject
                    key={project.id}
                    project={project}
                 ></CssProject>)
                 }
                   
              </div>
+        }
         </div>
+
+
     );
 };
 
