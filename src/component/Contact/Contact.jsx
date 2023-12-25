@@ -92,10 +92,7 @@ const Contact = () => {
       </div>
       <ToastContainer />
 
-      <div className="group inline-block">
-  <button className="hidden group-hover:inline-block bg-blue-500 text-white px-4 py-2">Button</button>
-  <div className="bg-gray-200 text-gray-600 px-4 py-2 cursor-pointer">Hover Here</div>
-</div>
+     
     </section>
   );
 };

@@ -6,23 +6,23 @@ const Navbar = () => {
   // eslint-disable-next-line no-unused-vars
 
 /*  work dark mode  */
-  const [theme, setTheme] = useState(localStorage.getItem("theme")? localStorage.getItem("theme"):"light")
+  // const [theme, setTheme] = useState(localStorage.getItem("theme")? localStorage.getItem("theme"):"light")
 
-  const handelToggle = (e)=>{
-       if(e.target.checked){
-        setTheme("dark")
-      }
-      else{
-        setTheme("light")
-      }
-  }
+  // const handelToggle = (e)=>{
+  //      if(e.target.checked){
+  //       setTheme("dark")
+  //     }
+  //     else{
+  //       setTheme("light")
+  //     }
+  // }
 
-  useEffect(()=>{
-    localStorage.getItem("theme", theme);
-    const localTheme = localStorage.getItem("theme")
-    document.querySelector("html").setAttribute("data-theme", localTheme);
+  // useEffect(()=>{
+  //   localStorage.getItem("theme", theme);
+  //   const localTheme = localStorage.getItem("theme")
+  //   document.querySelector("html").setAttribute("data-theme", localTheme);
   
-  },[theme])
+  // },[theme])
 
 /*  dark mode end  */
 
@@ -71,8 +71,8 @@ const Navbar = () => {
   
   {/* this hidden checkbox controls the state */}
   <input type="checkbox" 
-  onChange={handelToggle} 
-  checked={theme=="light" ? false : true}
+  // onChange={handelToggle} 
+  // checked={theme=="light" ? false : true}
   />
   
   {/* sun icon */}
