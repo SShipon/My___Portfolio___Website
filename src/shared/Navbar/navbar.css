@@ -15,13 +15,10 @@
 /*  my component updated */
  
 .navbar.colorChange {
-    background: linear-gradient(
-    157.81deg,
-    #232c2c -43.27%,
-    #35a3a7 -21.24%,
-    #3b6869 12.19%,
-    #182b2c 29.82%,
-    #5ce1e6 51.94%,
-    #050e0f 90.29%
-  );
+  background: linear-gradient(90deg, #6a648d, #f459ff, #53353d, #49483e);
+}
+
+
+.miniNav{
+  background: linear-gradient(90deg, #59415a, #e79aec, #b98392, #494633);
 }

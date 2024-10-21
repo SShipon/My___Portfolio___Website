@@ -250,24 +250,39 @@ body {
 }
 
 
-.about__hero__btn{
+.service__hero__btn{
   width: 200px;
   display: block;
   margin: auto;
   height: 50px;
   border-radius: 50px;
-  color: #046a77;
+  color: #ffff;
+  background-color: #ffff;
+  transition: all 1s ease-in;
+}
+
+/* this is hello */
+.service__hero__btn:hover{
+ background-color: #0c0d0e;
+ color: rgb(128, 92, 128);
+ 
+}
+
+
+.about__hero__btn{
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  color: #ffff;
   background-color: #ffff;
   transition: all 1s ease-in;
 }
 
 /* this is hello */
 .about__hero__btn:hover{
- background-color: #024e58;
- color: rgb(255, 255, 255);
- 
+ background-color: #0c0d0e;
+ color: rgb(128, 92, 128);
 }
-
 
 .text__icon{
  
@@ -288,7 +303,7 @@ color: rgb(2, 204, 204);
 }
 
 
-.gradient-border {
+/* .gradient-border {
   padding: 8px 18px;
   background: linear-gradient(90deg, #3f1eff, #f459ff, #fc6a93, #fff2a2);
   cursor: pointer;
@@ -296,6 +311,15 @@ color: rgb(2, 204, 204);
   position: relative;
   z-index: 1;
   color: #fff;
+} */
+
+.gradient-border {
+  padding: 8px 18px;
+  background: linear-gradient(90deg, #3f1eff, #f459ff, #fc6a93, #fff2a2);
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  z-index: 0; /* Try lowering this */
 }
 
 .gradient-border::before {
@@ -308,6 +332,14 @@ color: rgb(2, 204, 204);
   background-color: #111026;
   border-radius: 7px;
   z-index: -1;
+}
+
+
+
+
+.navbar {
+  position: fixed;
+  z-index: 10; /* Ensure navbar has a higher z-index */
 }
 
 

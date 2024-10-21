@@ -44,7 +44,7 @@ const Blogs = () => {
    
     
     return (
-       <section id='blogs' className='flex justify-center items-center  lg:flex-col flex-row'>
+       <section id='blogs' className='flex justify-center items-center  flex-col'>
                 <div className='text-center '>
                   <h4 className=' text-3xl lg:text-5xl font-bold italic text-white  lg:my-6 text-gradient'>  What we care for</h4>
                   <p className='text-2xl lg:text-3xl text-white  italic p-4'>Making professional therapy accessible</p>

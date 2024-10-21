@@ -14,7 +14,40 @@ const Portfolio = () => {
    
     return (
         <div id="portfolio" className="container">
-            <h3 className="text-3xl text-gradient font-extrabold text-center my-10">My Latest All Projects </h3>
+                  <h2
+        class="text-white text-center [leading-trim:both] [text-edge:cap] text-5xl not-italic font-semibold leading-[normal] font-outfit relative"
+      >
+Latest All Projects
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="256"
+          height="18"
+          viewBox="0 0 256 18"
+          fill="none"
+          class="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2"
+        >
+          <path
+            d="M253 15.0003C192 0.000329018 75 0.000244617 3 11.0003"
+            stroke="url(#paint0_linear_22_140)"
+            stroke-width="5"
+            stroke-linecap="round"></path>
+          <defs>
+            <linearGradient
+              id="paint0_linear_22_140"
+              x1="264"
+              y1="15.3887"
+              x2="-13.4"
+              y2="23.754"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#3F1EFF"></stop>
+              <stop offset="0.415" stop-color="#F459FF"></stop>
+              <stop offset="0.69" stop-color="#FC6A93"></stop>
+              <stop offset="1" stop-color="#FFF2A2"></stop>
+            </linearGradient>
+          </defs>
+        </svg>
+      </h2>
         <div className="bloc-tabs">
           <button
             className={toggleState === 1 ? "tabs active-tabs" : "tabs"}

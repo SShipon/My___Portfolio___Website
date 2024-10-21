@@ -19,10 +19,11 @@ const About = () => {
                   
            
                    <div class=" hidden lg:block md:block">
-                   <HashLink to='/home#contact'>  <button class="borderGradient font-outfit py-2 px-8 text-white text-sm not-italic font-medium leading-[normal]">
-                  Read More
-                </button></HashLink>
+                   <HashLink to='/home#contact'>  <button className="about__hero__btn about__hero__btn:hover gradient-border  font-bold">Hire Me <i className="fa-solid fa-angles-right"></i></button></HashLink>
+                   <br />
               </div>
+
+        
 
                   </div>
                   <div className="w-2/2 lg:w-2/6 sm:order-1 -order-1 py-10">
