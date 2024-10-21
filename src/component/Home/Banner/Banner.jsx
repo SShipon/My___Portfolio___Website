@@ -24,8 +24,9 @@ const Banner = () => {
            <br />
           <div>
           <a href={resume} download>
-           <button className="btn btn_hero"><i className="fa-solid fa-download"></i> Resume</button>
+           <button className="borderGradient  text-white text-sm not-italic font-medium leading-[normal] font-outfit py-2 px-4"><i className="fa-solid fa-download"></i> Resume</button>
           </a>
+
           </div>
             <div>
               <Icons></Icons>

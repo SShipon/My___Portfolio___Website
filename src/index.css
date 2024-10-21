@@ -18,6 +18,12 @@
   --color-subtext: #FF8A71;
 }
 
+body {
+  font-family: 'Outfit';
+  font-weight: 400;
+  background: #0b041e;
+  color: #fff;
+}
 
 :root {
   --black-gradient: linear-gradient(
@@ -190,35 +196,43 @@
  }
 .bg-gradient{
   background: linear-gradient(0deg,#18151500 0%, rgb(20, 20, 20) 100%);
-  transition: all 1s ease-in;
+  
+
 }
 .bg-gradient_one{
   background: linear-gradient(0deg, #18151500 0%, rgb(20, 20, 20) 100%);
-  transition: all 1s ease-in;
+ 
+ 
 }
 .bg-gradient_there{
   background: linear-gradient(0deg, #18151500, rgb(17, 18, 19) 100%);
-  transition: all 1s ease-in;
+ 
+  
 }
 .bg-gradient_four{
   background: linear-gradient(0deg, #18151500 0%, rgb(20, 20, 20) 100%);
-  transition: all 1s ease-in;
+
+ 
 }
 
 .bg-gradient:hover{
   background: linear-gradient(0deg, rgb(29, 41, 32) 0%, rgb(104, 104, 93) 100%);
   color: white !important;
+  border-radius: 0px;
 
 }
 .bg-gradient_one:hover{
   background: linear-gradient(0deg, rgb(209, 158, 206) 0%, rgb(102, 89, 86) 100%);
+  border-radius: 0px;
 }
 .bg-gradient_there:hover{
   background: linear-gradient(0deg, rgb(190, 215, 243) 0%, rgb(140, 153, 172) 100%);
+  border-radius: 0px;
 
 }
 .bg-gradient_four:hover{
   background: linear-gradient(0deg, rgb(68, 78, 97) 0%, rgb(91, 167, 131) 100%);
+  border-radius: 0px;
 }
 
 
@@ -271,6 +285,50 @@ color: rgb(2, 204, 204);
   background: linear-gradient(0deg, rgb(250, 229, 248) 0%, rgb(240, 223, 219) 100%);
   border-radius: 20px;
   
+}
+
+
+.gradient-border {
+  padding: 8px 18px;
+  background: linear-gradient(90deg, #3f1eff, #f459ff, #fc6a93, #fff2a2);
+  cursor: pointer;
+  border-radius: 8px;
+  position: relative;
+  z-index: 1;
+  color: #fff;
+}
+
+.gradient-border::before {
+  content: '';
+  position: absolute;
+  top: 1px;
+  right: 1px;
+  bottom: 1px;
+  left: 1px;
+  background-color: #111026;
+  border-radius: 7px;
+  z-index: -1;
+}
+
+
+.borderGradient {
+  --gradient: linear-gradient(90deg, #3f1eff, #f459ff, #fc6a93, #fff2a2);
+  border-image: var(--gradient);
+  border-image-slice: 1;
+  border-width: 3px;
+  border-style: solid;
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.serviceGradient {
+  --gradient: linear-gradient(90deg, #3f1eff, #f459ff, #fc6a93, #fff2a2);
+  border-image: var(--gradient);
+  border-image-slice: 1;
+  border-width: 1px;
+  border-style: solid;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .text4{

@@ -50,24 +50,24 @@ const Navbar = () => {
     return (
         <div className="">
      <div  className={colorChange ? 'navbar colorChange' : 'navbar  fixed top-0 z-10 bg-slate-200'}>
-  <div className="navbar-start container mx-12 px-8">
-    <div className="dropdown">
+  <div className="navbar-start container mx-2 lg:mx-12 lg:px-8">
+    <div className="dropdown ">
       <label tabIndex={0} className="lg:hidden">
         <svg xmlns="http://www.w3.org/2000/svg" className="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
       </label>
-      <ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow  rounded-box w-52 mx-16 font-semibold">
+      <ul tabIndex={0} className="menu menu-sm bg-rose-500 w-[300px]  dropdown-content mt-3 z-[1]  shadow  rounded-box  font-semibold">
        {navItems}
       </ul>
     </div>
-    <a className=" normal-case text-xl text-white">Shipon</a>
+    <a className=" normal-case text-xl text-white p-2 lg:p-0">Shipon</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 font-semibold">
        {navItems}
     </ul>
   </div>
-    <div className="">
-    <label className="swap swap-rotate">
+    <div className="relative">
+    <label className="swap swap-rotate sm:absolute -right-28  lg:-right-8">
   
   {/* this hidden checkbox controls the state */}
   <input type="checkbox" 

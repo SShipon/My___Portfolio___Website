@@ -4,6 +4,9 @@
     position: fixed;
     top:0;
     z-index: 1;
+  font-weight: 400;
+  background: #0b041e;
+  color: #fff;
    
     
 }
