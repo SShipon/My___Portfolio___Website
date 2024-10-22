@@ -14,7 +14,11 @@ const Portfolio = () => {
    
     return (
         <div id="portfolio" className="container">
-                  <h2
+      <br />
+      <br />
+
+        <div className="my-12">
+        <h2
         class="text-white text-center [leading-trim:both] [text-edge:cap] text-5xl not-italic font-semibold leading-[normal] font-outfit relative"
       >
 Latest All Projects
@@ -47,7 +51,11 @@ Latest All Projects
             </linearGradient>
           </defs>
         </svg>
+       
+
       </h2>
+        </div>
+
         <div className="bloc-tabs">
           <button
             className={toggleState === 1 ? "tabs active-tabs" : "tabs"}

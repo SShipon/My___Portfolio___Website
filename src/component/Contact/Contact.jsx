@@ -41,11 +41,52 @@ const Contact = () => {
        className="sm:my-12"
     >
       <div className="text-center pb-14 text-white contact_content">
-        <br />
-        <br />
-        <p className="text-4xl font-bold text-gradient">Contact Us</p>
-        <h1 className="lg:text-4xl sm:text-3xl">Stay connected with us</h1>
+
+      <br />
+      <br />
+
+        <div className="my-12">
+        <h2
+        class="text-white text-center [leading-trim:both] [text-edge:cap] text-5xl not-italic font-semibold leading-[normal] font-outfit relative"
+      >
+       CONTACT US
+
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="256"
+          height="18"
+          viewBox="0 0 256 18"
+          fill="none"
+          class="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2"
+        >
+          <path
+            d="M253 15.0003C192 0.000329018 75 0.000244617 3 11.0003"
+            stroke="url(#paint0_linear_22_140)"
+            stroke-width="5"
+            stroke-linecap="round"></path>
+          <defs>
+            <linearGradient
+              id="paint0_linear_22_140"
+              x1="264"
+              y1="15.3887"
+              x2="-13.4"
+              y2="23.754"
+              gradientUnits="userSpaceOnUse"
+            >
+              <stop stop-color="#3F1EFF"></stop>
+              <stop offset="0.415" stop-color="#F459FF"></stop>
+              <stop offset="0.69" stop-color="#FC6A93"></stop>
+              <stop offset="1" stop-color="#FFF2A2"></stop>
+            </linearGradient>
+          </defs>
+        </svg>
+       
+
+      </h2>
+        </div>
+        <span className="text-2xl lg:text-3xl text-white  italic p-4 ">Stay connected with us</span>
       </div>
+      <div className="mt-20">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
       <div className="w-[100%]">
       <ContactAnimate />
@@ -89,6 +130,7 @@ const Contact = () => {
           </form>
         </div>
          
+      </div>
       </div>
       <ToastContainer />
 

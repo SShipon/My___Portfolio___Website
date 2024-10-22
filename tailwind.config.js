@@ -6,6 +6,12 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage: {
+        'custom-gradient': 'linear-gradient(90deg, #3f1eff, #f459ff, #fc6a93, #fff2a2)',
+      },
+      borderColor: {
+        'custom-border': '#3f1eff', // You can also set this to a gradient if needed
+      },
       colors: {
         'main': '#e002a2',
         'second': '#47019d',
