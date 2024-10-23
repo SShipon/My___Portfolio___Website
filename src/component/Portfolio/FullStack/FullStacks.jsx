@@ -3,15 +3,15 @@ import FullStack from "./FullStack";
 
 const JavaScriptAndCss = () => {
   const [projects, setProjects] = useState(null);
-  const [loading, setLoading] = useState(true); // State to manage loading
+  const [loading, setLoading] = useState(true); 
 
-  // Fetch JSON Data
+  
   useEffect(() => {
-    fetch("projects.json") // Replace with the correct path to your JSON file
+    fetch("projects.json") 
       .then((res) => res.json())
       .then((data) => {
         setProjects(data.categories);
-        // Set loading to false after 5 seconds
+        
         setTimeout(() => {
           setLoading(false);
         }, 4000);
@@ -20,7 +20,7 @@ const JavaScriptAndCss = () => {
 
   return (
     <div>
-      {/* Loading state */}
+  
       {loading ? (
         <p className="text-white text-7xl">.....loading</p>
       ) : (

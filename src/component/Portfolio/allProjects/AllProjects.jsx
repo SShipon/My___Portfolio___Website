@@ -6,7 +6,7 @@ const AllProjects = () => {
 
   // Fetch JSON Data
   useEffect(() => {
-    fetch("projects.json") // Replace with the correct path to your JSON file
+    fetch("projects.json")
       .then((res) => res.json())
       .then((data) => setProjects(data.categories));
   }, []);
@@ -18,7 +18,7 @@ const AllProjects = () => {
       <p className="text-white text-7xl">.....loading</p>
     ) : (
       <>
-        {/* JavaScript Projects */}
+       
       
     <div className="mt-6">
     <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
