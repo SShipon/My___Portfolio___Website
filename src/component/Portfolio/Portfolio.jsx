@@ -1,7 +1,7 @@
 import { useState } from "react";
 import './portfolio.css'
 import FullStacks from "./FullStack/FullStacks";
-import AllProjects from "./allProjects/allProjects";
+import AllProjects from './allProjects/AllProjects'
 import JavaScriptAndCss from "./javaScriptAndCss/JavaScriptAndCss";
 const Portfolio = () => {
  
@@ -87,8 +87,8 @@ Latest All Projects
           <div
             className={toggleState === 1 ? "content  active-content" : "content"}
           >
-           
-           <AllProjects />
+             <AllProjects />
+          
           </div>
   
           <div
