@@ -1,13 +1,19 @@
 {
-    "react":[
+    "fullStack":[
      {
        "id":1,
        "name":"Phone shop limited",
        "des":"",
-       "img":"https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+       "img":"https://res.cloudinary.com/drojlcuyf/image/upload/v1729657549/bike_bawjn1.png"
      },
      {
-       "id":1,
+      "id":2,
+      "name":"Phone shop limited",
+      "des":"",
+      "img":"https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+    },
+     {
+       "id":3,
        "name":"Phone shop limited",
        "des":"",
        "img":"https://i.ibb.co/s1msxrz/localhost-3000-18.jpg"
@@ -18,36 +24,42 @@
  
      "javascript":[
          {
-           "id":1,
+           "id":4,
            "name":"Phone shop limited",
            "des":"",
            "img":"https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
          },
          {
-           "id":1,
+           "id":5,
            "name":"Phone shop limited",
            "des":"",
            "img":"https://i.ibb.co/s1msxrz/localhost-3000-18.jpg"
-         }
+         },
+         {
+          "id":6,
+          "name":"Phone shop limited",
+          "des":"",
+          "img":"https://i.ibb.co/s1msxrz/localhost-3000-18.jpg"
+        }
         
         
          ],
 
          "css":[
             {
-              "id":1,
+              "id":7,
               "name":"Phone shop limited",
               "des":"",
               "img":"https://i.ibb.co/qBvR8Mw/127-0-0-1-5501-index-html.png"
             },
             {
-            "id":2, 
+            "id":8, 
             "name":"Camera shop",
             "des":"",
             "img":"https://i.ibb.co/rwfv2TV/127-0-0-1-5501-index-html-3.png"
             },
             {
-            "id":3, 
+            "id":9, 
             "name":"We Provide Effective Legal Solutions",
             "des":"",
             "img":"https://i.ibb.co/v3V0Bbr/127-0-0-1-5500-index-html.png"
@@ -57,3 +69,5 @@
      
  
  }
+
+

@@ -1,6 +1,6 @@
 
 
-const ReactProject = () => {
+const MainFrontend = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const ReactProject = () => {
     );
 };
 
-export default ReactProject;
+export default MainFrontend;

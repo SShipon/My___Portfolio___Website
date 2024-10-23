@@ -1,5 +1,5 @@
 import { useEffect, useState } from "react";
-import FullStack from "./FullStack";
+import JsAndCss from "./JsAndCss";
 
 const JavaScriptAndCss = () => {
   const [projects, setProjects] = useState(null);
@@ -28,8 +28,8 @@ const JavaScriptAndCss = () => {
           {/* JavaScript Projects */}
           <div className="mt-6">
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {projects?.mernStack?.map((project) => (
-                <FullStack key={project.id} project={project} />
+              {projects?.javascript?.map((project) => (
+                <JsAndCss key={project.id} project={project} />
               ))}
             </div>
           </div>

@@ -1,8 +1,8 @@
 import { useState } from "react";
 import './portfolio.css'
-import CssProjects from "./CssProjects/CssProjects";
 import FullStacks from "./FullStack/FullStacks";
-
+import AllProjects from "./allProjects/allProjects";
+import JavaScriptAndCss from "./javaScriptAndCss/JavaScriptAndCss";
 const Portfolio = () => {
  
     const [toggleState, setToggleState] = useState(1);
@@ -61,25 +61,25 @@ Latest All Projects
             className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(1)}
           >
-          <span className="text-xs font-extrabold  lg:text-lg"> Html & CSS </span>
+          <span className="text-xs font-extrabold  lg:text-lg"> All </span>
           </button>
           <button
             className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(2)}
           >
-          <span className="text-xs font-extrabold  lg:text-lg"> JavaScript</span>
+          <span className="text-xs font-extrabold  lg:text-lg"> Js & CSS</span>
           </button>
           <button
             className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(3)}
           >
-         <span className="text-xs font-extrabold  lg:text-lg"> React.js </span>
+         <span className="text-xs font-extrabold  lg:text-lg"> Frontend  </span>
           </button>
           <button
             className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(4)}
           >
-         <span className="text-xs font-extrabold  lg:text-lg">  Mern Stack </span>
+         <span className="text-xs font-extrabold  lg:text-lg  ">  Full Stack </span>
           </button>
         </div>
   
@@ -87,32 +87,31 @@ Latest All Projects
           <div
             className={toggleState === 1 ? "content  active-content" : "content"}
           >
-            <h2>Html and css Projects</h2>
-            <hr />
-            <CssProjects></CssProjects>
+           
+           <AllProjects />
           </div>
   
           <div
             className={toggleState === 2 ? "content  active-content" : "content"}
           >
-            <h2>Content 2</h2>
-            <hr />
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui laboriosam facilis totam! Alias nesciunt rerum laboriosam at dolor. Voluptas, repellendus.</p>
-         <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quis, saepe eligendi. Veniam, explicabo a. Quidem quae expedita repellat! Provident, quam!</p>
+           
+           
+           <JavaScriptAndCss></JavaScriptAndCss>
           </div>
   
           <div
             className={toggleState === 3 ? "content  active-content" : "content"}
           >
-            <h2>Content 4</h2>
+           
             <hr />
              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, alias.</p>
           </div>
           <div
             className={toggleState === 4 ? "content  active-content" : "content"}
           >
-            <h2>Content 3</h2>
-            <hr />
+          
+          
+             <br />
             <FullStacks></FullStacks>
           </div>
         </div>

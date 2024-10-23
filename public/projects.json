@@ -1,0 +1,117 @@
+{
+  "categories": {
+    "javascript": [
+      {
+        "id": 1,
+        "name": "JavaScript Project 1",
+        "des": "A simple JS project",
+        "img": "https://res.cloudinary.com/drojlcuyf/image/upload/v1729657549/bike_bawjn1.png"
+      },
+      {
+        "id": 2,
+        "name": "JavaScript Project 2",
+        "des": "Another JS project",
+        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+      },
+      {
+        "id": 3,
+        "name": "JavaScript Project 2",
+        "des": "Another JS project",
+        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+      },
+      {
+        "id": 4,
+        "name": "JavaScript Project 1",
+        "des": "A simple JS project",
+        "img": "https://res.cloudinary.com/drojlcuyf/image/upload/v1729657549/bike_bawjn1.png"
+      },
+      {
+        "id": 5,
+        "name": "JavaScript Project 1",
+        "des": "A simple JS project",
+        "img": "https://res.cloudinary.com/drojlcuyf/image/upload/v1729657549/bike_bawjn1.png"
+      },
+      {
+        "id": 6,
+        "name": "JavaScript Project 1",
+        "des": "A simple JS project",
+        "img": "https://res.cloudinary.com/drojlcuyf/image/upload/v1729657549/bike_bawjn1.png"
+      }
+    ],
+    "mernStack": [
+      {
+        "id": 7,
+        "name": "MERN Stack Project 1",
+        "des": "A full stack MERN project",
+        "img": "https://i.ibb.co/s1msxrz/localhost-3000-18.jpg"
+      },
+      {
+        "id": 8,
+        "name": "MERN Stack Project 2",
+        "des": "Another MERN project",
+        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+      },
+      {
+        "id": 9,
+        "name": "MERN Stack Project 2",
+        "des": "Another MERN project",
+        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+      },
+      {
+        "id": 10,
+        "name": "MERN Stack Project 2",
+        "des": "Another MERN project",
+        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+      },
+      {
+        "id": 11,
+        "name": "MERN Stack Project 2",
+        "des": "Another MERN project",
+        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+      },
+      {
+        "id": 12,
+        "name": "MERN Stack Project 2",
+        "des": "Another MERN project",
+        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+      }
+    ],
+    "frontend": [
+      {
+        "id": 13,
+        "name": "Frontend Project 1",
+        "des": "A frontend only project",
+        "img": "https://i.ibb.co/rwfv2TV/127-0-0-1-5501-index-html-3.png"
+      },
+      {
+        "id": 14,
+        "name": "Frontend Project 2",
+        "des": "Another frontend project",
+        "img": "https://i.ibb.co/v3V0Bbr/127-0-0-1-5500-index-html.png"
+      },
+      {
+        "id": 15,
+        "name": "Frontend Project 2",
+        "des": "Another frontend project",
+        "img": "https://i.ibb.co/v3V0Bbr/127-0-0-1-5500-index-html.png"
+      },
+      {
+        "id": 16,
+        "name": "Frontend Project 2",
+        "des": "Another frontend project",
+        "img": "https://i.ibb.co/v3V0Bbr/127-0-0-1-5500-index-html.png"
+      },
+      {
+        "id": 17,
+        "name": "Frontend Project 2",
+        "des": "Another frontend project",
+        "img": "https://i.ibb.co/v3V0Bbr/127-0-0-1-5500-index-html.png"
+      }, {
+        "id": 18,
+        "name": "Frontend Project 2",
+        "des": "Another frontend project",
+        "img": "https://i.ibb.co/v3V0Bbr/127-0-0-1-5500-index-html.png"
+      }
+    ]
+  }
+}
