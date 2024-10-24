@@ -2,7 +2,7 @@
 
 
 
-const Blog = ({ professional }) => {
+const Service = ({ professional }) => {
   console.log(professional)
   const { name, description, icon, bgClass } = professional;
   
@@ -19,4 +19,4 @@ const Blog = ({ professional }) => {
   );
 };
 
-export default Blog;
+export default Service;

@@ -3,6 +3,8 @@ import './portfolio.css'
 import FullStacks from "./FullStack/FullStacks";
 import AllProjects from './allProjects/AllProjects'
 import JavaScriptAndCss from "./javaScriptAndCss/JavaScriptAndCss";
+import { motion } from "framer-motion";
+import { fadeIn } from '../../hooks/variant';
 const Portfolio = () => {
  
     const [toggleState, setToggleState] = useState(1);
@@ -18,8 +20,15 @@ const Portfolio = () => {
       <br />
 
         <div className="my-12">
-        <h2
-        class="text-white text-center [leading-trim:both] [text-edge:cap] text-5xl not-italic font-semibold leading-[normal] font-outfit relative"
+        <motion.div
+          variants={fadeIn("right", 0)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="my-10"
+        >
+                        <h2
+        class="text-white text-center [leading-trim:both] [text-edge:cap] lg:text-5xl text-xl not-italic font-semibold leading-[normal] font-outfit relative my-10 uppercase"
       >
 Latest All Projects
         <svg
@@ -51,9 +60,8 @@ Latest All Projects
             </linearGradient>
           </defs>
         </svg>
-       
-
       </h2>
+        </motion.div>
         </div>
 
         <div className="bloc-tabs bg-[#211c2c] p-4 rounded-xl">

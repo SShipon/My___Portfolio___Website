@@ -1,14 +1,13 @@
 
-import Blog from './Blog';
 import BlogIcon from './SvgIcon/BlogIcon';
 import Four from './SvgIcon/Four';
 import Second from './SvgIcon/Second';
 import Third from './SvgIcon/Third';
+import Service from './Service';
+import { motion } from "framer-motion";
+import { fadeIn } from '../../hooks/variant';
 
-
-
-
-const Blogs = () => {
+const Services = () => {
     const professionalServices =[
         {
             id:1,
@@ -51,10 +50,19 @@ const Blogs = () => {
 <br />
 
 
-                  <h2
-        class="text-white text-center [leading-trim:both] [text-edge:cap] text-5xl not-italic font-semibold leading-[normal] font-outfit relative my-10"
+  
+
+      <motion.div
+          variants={fadeIn("right", 0)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="my-10"
+        >
+                        <h2
+        class="text-white text-center [leading-trim:both] [text-edge:cap] lg:text-5xl text-xl not-italic font-semibold leading-[normal] font-outfit relative my-10 uppercase"
       >
-What we care for
+What we care for 
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="256"
@@ -85,16 +93,17 @@ What we care for
           </defs>
         </svg>
       </h2>
+        </motion.div>
                   <p className='text-2xl lg:text-3xl text-white  italic p-4'>Making professional therapy accessible</p>
                 </div>
                 <br />
                 <br />
             <div className='grid grid-cols-1  md:grid-cols-2 lg:grid-cols-4 gap-6 '>
              {
-              professionalServices.map(professional=><Blog
+              professionalServices.map(professional=><Service
               key={professional.id}
               professional={professional}
-              ></Blog>)  
+              ></Service>)  
              }       
         </div>
   
@@ -102,4 +111,4 @@ What we care for
     );
 };
 
-export default Blogs;
+export default Services;

@@ -43,7 +43,7 @@ const Navbar = () => {
         <li ><NavHashLink style={{ backgroundColor:'transparent', color: '#ffff'}} to="/home#home">Home</NavHashLink></li>
         <li ><NavHashLink style={{ backgroundColor:'transparent', color: '#ffff'}} to="/home#portfolio">Portfolio</NavHashLink></li>
         <li ><NavHashLink style={{ backgroundColor:'transparent', color:" #ffff"}} to="/home#contact">Contact</NavHashLink></li>
-        <li ><NavHashLink style={{ backgroundColor:'transparent', color: "#ffff"}} to="/home#blogs">Blog</NavHashLink></li>
+        <li ><NavHashLink style={{ backgroundColor:'transparent', color: "#ffff"}} to="/home#services">services</NavHashLink></li>
         <li ><NavHashLink style={{ backgroundColor:'transparent', color: "#ffff"}} to="/home#about">About</NavHashLink></li>
         <li ><NavHashLink style={{ backgroundColor:'transparent', color: "#ffff"}} to="/home#coming">coming</NavHashLink></li>
     </>

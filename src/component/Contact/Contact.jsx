@@ -5,6 +5,8 @@ import './contact.css'
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ContactAnimate from "./ContactAnimate";
+import { motion } from "framer-motion";
+import { fadeIn } from '../../hooks/variant';
 const Contact = () => {
   const form = useRef();
 
@@ -46,11 +48,17 @@ const Contact = () => {
       <br />
 
         <div className="my-12">
-        <h2
-        class="text-white text-center [leading-trim:both] [text-edge:cap] text-5xl not-italic font-semibold leading-[normal] font-outfit relative"
+        <motion.div
+          variants={fadeIn("right", 0)}
+          initial="hidden"
+          whileInView={"show"}
+          viewport={{ once: false, amount: 0.7 }}
+          className="my-10"
+        >
+                        <h2
+        class="text-white text-center [leading-trim:both] [text-edge:cap] lg:text-5xl text-xl not-italic font-semibold leading-[normal] font-outfit relative my-10 uppercase"
       >
        CONTACT US
-
         <svg
           xmlns="http://www.w3.org/2000/svg"
           width="256"
@@ -80,9 +88,8 @@ const Contact = () => {
             </linearGradient>
           </defs>
         </svg>
-       
-
       </h2>
+        </motion.div>
         </div>
         <span className="text-2xl lg:text-3xl text-white  italic p-4 ">Stay connected with us</span>
       </div>
