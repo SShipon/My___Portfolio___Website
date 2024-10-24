@@ -44,21 +44,9 @@ const About = () => {
 
       <div className="flex  flex-col lg:flex-row justify-center  items-center">
         <div className="lg:w-3/5">
-          <p className="text-justify">
-            I'm a Shipon passionate MERN stack developer with a strong command of
-            modern web technologies and a keen eye for detail. With expertise in
-            HTML, CSS, JavaScript, and front-end frameworks like React.js and
-            Redux, I bring user interfaces to life with clean, responsive, and
-            dynamic designs. On the back-end, I harness the power of Node.js,
-            Express.js, and TypeScript to build robust, scalable applications.
-            My experience with Next.js enhances my ability to deliver fast,
-            SEO-optimized solutions, while my proficiency in Git and version
-            control ensures smooth collaboration in any team environment. I
-            thrive on problem-solving, continuously learning, and staying
-            up-to-date with the latest trends in web development to create
-            innovative solutions that meet both user needs and business goals.
-            Let’s build something exceptional together!
-          </p>
+        <p className="lg:text-justify leading-normal">
+  I'm a Shipon passionate MERN stack developer with a strong command of modern web technologies and a keen eye for detail. With expertise in HTML, CSS, JavaScript, and front-end frameworks like React.js and Redux, I bring user interfaces to life with clean, responsive, and dynamic designs. On the back-end, I harness the power of Node.js, Express.js, and TypeScript to build robust, scalable applications. My experience with Next.js enhances my ability to deliver fast, SEO-optimized solutions, while my proficiency in Git and version control ensures smooth collaboration in any team environment. I thrive on problem-solving, continuously learning, and staying up-to-date with the latest trends in web development to create innovative solutions that meet both user needs and business goals. Let’s build something exceptional together!
+</p>
 
           <div class="mt-8">
             <HashLink to="/home#contact">

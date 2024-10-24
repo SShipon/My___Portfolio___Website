@@ -87,46 +87,51 @@ const Contact = () => {
         <span className="text-2xl lg:text-3xl text-white  italic p-4 ">Stay connected with us</span>
       </div>
       <div className="mt-20">
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
-      <div className="w-[100%]">
-      <ContactAnimate />
+      <div className="flex lg:flex-row flex-col justify-center gap-10 ">
+
+      <div className="lg:w-1/2 w-full lg:relative ">
+       <div className="lg:w-[800px] lg:absolute lg:-left-20">
+       <ContactAnimate />
+      </div> 
       </div>
-        <div className="w-[100%]">
+
+        <div className="lg:w-1/2 w-full">
           <form ref={form} onSubmit={sendEmail}>
             <div className="grid grid-cols-1 justify-items-center gap-5">
               <input
                 type="text"
                 placeholder="Name*"
                 name="user_name}"
-                className="input w-full  max-w-md input-bordered input-info "
+                className="input w-full   max-w-md  outline-none border border-purple-950	
+                 "
                 required
               />
               <input
                 type="text"
                 placeholder="Email Address*"
                 name="user_email"
-                className="input w-full max-w-md input-bordered input-info "
+                className="input w-full max-w-md  outline-none border border-purple-950	 "
                 required
               />
               <input
                 type="text"
                 placeholder="Subject*"
                 name="from_name"
-                className="input w-full max-w-md input-bordered input-info "
+                className="input w-full max-w-md outline-none border border-purple-950	"
                 required
               />
               <textarea
-                className="textarea w-full max-w-md input-bordered input-info "
+                className="textarea w-full max-w-md outline-none border border-purple-950	"
                 placeholder="Your message*"
                 name="message"
                 required
                 rows={6}
               ></textarea>
-             <button className="btn btn-outline btn-info w-full max-w-md" type="Submit" value="send">Submit</button>
+            <button className="contact_hero__btn contact_hero__btn:hover gradient-border w-full lg:w-[78%]  font-bold" value="send"type="Submit"  >
+                Submit
+              </button>
             </div>
-            <br />
-
-            <br />
+           
           </form>
         </div>
          

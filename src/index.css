@@ -284,6 +284,20 @@ body {
  color: rgb(128, 92, 128);
 }
 
+.contact_hero__btn{
+  border-radius: 50px;
+  height: 50px;
+  color: #ffff;
+  background-color: #ffff;
+  transition: all 1s ease-in;
+}
+
+/* this is hello */
+.contact_hero__btn:hover{
+ background-color: #0d0d0e;
+ color: rgb(255, 255, 255);
+}
+
 .text__icon{
  
   color: #fcfcfc;

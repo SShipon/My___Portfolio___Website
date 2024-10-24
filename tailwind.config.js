@@ -6,6 +6,7 @@ export default {
   ],
   theme: {
     extend: {
+      bgColor: '#0b041e',
       backgroundImage: {
         'custom-gradient': 'linear-gradient(90deg, #3f1eff, #f459ff, #fc6a93, #fff2a2)',
       },

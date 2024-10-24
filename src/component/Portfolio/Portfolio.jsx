@@ -56,9 +56,9 @@ Latest All Projects
       </h2>
         </div>
 
-        <div className="bloc-tabs">
+        <div className="bloc-tabs bg-[#211c2c] p-4 rounded-xl">
           <button
-            className={toggleState === 1 ? "tabs active-tabs" : "tabs"}
+            className={toggleState === 1 ? "tabs active-tabs" : "tabs rounded-l-2xl"}
             onClick={() => toggleTab(1)}
           >
           <span className="text-xs font-extrabold  lg:text-lg"> All </span>
@@ -76,7 +76,7 @@ Latest All Projects
          <span className="text-xs font-extrabold  lg:text-lg"> Frontend  </span>
           </button>
           <button
-            className={toggleState === 4 ? "tabs active-tabs" : "tabs"}
+            className={toggleState === 4 ? "tabs active-tabs" : "tabs rounded-r-2xl"}
             onClick={() => toggleTab(4)}
           >
          <span className="text-xs font-extrabold  lg:text-lg  ">  Full Stack </span>
@@ -107,11 +107,10 @@ Latest All Projects
              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, alias.</p>
           </div>
           <div
-            className={toggleState === 4 ? "content  active-content" : "content"}
+            className={toggleState === 4 ? "content  active-content" : "content rounded-full"}
           >
           
-          
-             <br />
+
             <FullStacks></FullStacks>
           </div>
         </div>
