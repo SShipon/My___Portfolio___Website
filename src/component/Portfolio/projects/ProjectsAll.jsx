@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import AllProject from "./AllProject";
 
-const AllProjects = () => {
+const ProjectsAll = () => {
   const [projects, setProjects] = useState(null);
 
   // Fetch JSON Data
@@ -21,19 +21,22 @@ const AllProjects = () => {
        
       
     <div className="mt-6">
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
+     {/* MERN Stack Projects */}
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5  ">
+          {projects.mernStack.map((project) => (
+            <AllProject key={project.id} project={project} />
+          ))}
+        </div> 
+
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-4">
           {projects.javascript.map((project) => (
             <AllProject key={project.id} project={project} />
           ))}
         </div>
 
-        {/* MERN Stack Projects */}
+       
       
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-4 ">
-          {projects.mernStack.map((project) => (
-            <AllProject key={project.id} project={project} />
-          ))}
-        </div>
+       
 
         {/* Frontend Projects */}
        
@@ -49,4 +52,4 @@ const AllProjects = () => {
   );
 };
 
-export default AllProjects;
+export default ProjectsAll;

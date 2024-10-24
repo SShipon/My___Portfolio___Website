@@ -1,60 +1,53 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
-import About from "../component/About/About";
-import Portfolio from "../component/Portfolio/Portfolio";
-import Contact from "../component/Contact/Contact";
-import Coming from "../component/Coming/Coming";
-import Home from "../component/Home/Home";
-import Details from "../component/Portfolio/details/Details";
-import Services from "../component/services/Services";
+import React, { lazy } from "react";
 
+// Lazy load components
+const About = lazy(() => import("../component/About/About"));
+const Portfolio = lazy(() => import("../component/Portfolio/Portfolio"));
+const Contact = lazy(() => import("../component/Contact/Contact"));
+const Coming = lazy(() => import("../component/Coming/Coming"));
+const Home = lazy(() => import("../component/Home/Home"));
+const Details = lazy(() => import("../component/Portfolio/details/Details"));
+const Services = lazy(() => import("../component/services/Services"));
 
 export const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <Main></Main>,
-      children:[
-        {
-        
-          path:'/',
-          element:<Home></Home>
-        },
-        {
-        
-          path:'/home',
-          element:<Home></Home>
-        },
+  {
+    path: "/",
+    element: <Main />,
+    children: [
       {
-    
-        path:'/about',
-        element:<About></About>
-    },
-     {
-       path:'/portfolio',
-       element:<Portfolio></Portfolio>
-       
-    },
-    {
-     path:'/details/:id',
-     element:<Details></Details>
-    
-    },
-
-    {
-      path:'/contact',
-      element:<Contact></Contact>
-    },
- {
-  path:'/services',
-  element:<Services></Services>,
- 
-},
-
-{
-  path:'/coming',
-  element:<Coming></Coming>,
- 
-}
-    ]
-    },
-  ]);
+        path: "/",
+        element: <Home />,
+      },
+      {
+        path: "/home",
+        element: <Home />,
+      },
+      {
+        path: "/about",
+        element: <About />,
+      },
+      {
+        path: "/portfolio",
+        element: <Portfolio />,
+      },
+      {
+        path: "/details/:id",
+        element: <Details />,
+      },
+      {
+        path: "/contact",
+        element: <Contact />,
+      },
+      {
+        path: "/services",
+        element: <Services />,
+      },
+      {
+        path: "/coming",
+        element: <Coming />,
+      },
+    ],
+  },
+]);

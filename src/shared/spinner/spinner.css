@@ -1,0 +1,8 @@
+.spinner-border {
+    border-color: rgba(255, 255, 255, 0.2);
+    border-top-color: #3498db; /* Color for spinner */
+    border-right-color: transparent;
+    border-bottom-color: transparent;
+    border-left-color: #3498db;
+  }
+  

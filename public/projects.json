@@ -3,9 +3,25 @@
     "javascript": [
       {
         "id": 1,
-        "name": "JavaScript Project 1",
-        "des": "A simple JS project",
-        "img": "https://res.cloudinary.com/drojlcuyf/image/upload/v1729657549/bike_bawjn1.png"
+        "name": "Bike Rental",
+        "des": "bike Rental is a Bike rental service. People can rent bike using this website. There are two user 1. Admin, 2. User. Admin handle to add Bikes and show that home page and other page. People can see the bike and rent this bike form this dashboard. Make sure user Pay for rent bike 100 TK first then booking bike.",
+        "ProjectDescription": "Bike rental is a bike rental service where people can rent bikes using the website. There are two types of users: Admin and User. Admins are responsible for adding bikes to the system and displaying them on the home page and other relevant pages. Users can browse the available bikes, view details, and rent them from their dashboard. To rent a bike, users must first pay a fee of 100 TK. Once the payment is made, the booking is confirmed, and users can see their rental details in their dashboard. The system ensures a smooth rental process with secure payment handling, making it easy for users to rent bikes and for admins to manage bike listings and bookings.",
+        "img": "https://res.cloudinary.com/drojlcuyf/image/upload/v1729657549/bike_bawjn1.png",
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "Redux",
+          "Firebase",
+          "Framer Motion",
+          "jwt-decode",
+          "Lottie React",
+          "Lucide React",
+          "React Hook Form",
+          "React Router Dom",
+          "Redux Persist",
+          "Tailwind CSS",
+          "Tailwind CSS Animate"
+        ]
       },
       {
         "id": 2,
@@ -41,27 +57,80 @@
     "mernStack": [
       {
         "id": 7,
-        "name": "MERN Stack Project 1",
-        "des": "A full stack MERN project",
-        "img": "https://i.ibb.co/s1msxrz/localhost-3000-18.jpg"
+        "name": "Bike Rental",
+        "des": "bike Rental is a Bike rental service. People can rent bike using this website. There are two user 1. Admin, 2. User. Admin handle to add Bikes and show that home page and other page. People can see the bike and rent this bike form this dashboard. Make sure user Pay for rent bike 100 TK first then booking bike.",
+        "ProjectDescription": "Bike rental is a bike rental service where people can rent bikes using the website. There are two types of users: Admin and User. Admins are responsible for adding bikes to the system and displaying them on the home page and other relevant pages. Users can browse the available bikes, view details, and rent them from their dashboard. To rent a bike, users must first pay a fee of 100 TK. Once the payment is made, the booking is confirmed, and users can see their rental details in their dashboard. The system ensures a smooth rental process with secure payment handling, making it easy for users to rent bikes and for admins to manage bike listings and bookings.",
+        "img": "https://res.cloudinary.com/drojlcuyf/image/upload/v1729657549/bike_bawjn1.png",
+        "technologies": [
+          "JavaScript",
+          "TypeScript",
+          "Redux",
+          "Firebase",
+          "Framer Motion",
+          "jwt-decode",
+          "Lottie React",
+          "Lucide React",
+          "React Hook Form",
+          "React Router Dom",
+          "Redux Persist",
+          "Tailwind CSS",
+          "Tailwind CSS Animate"
+        ]
       },
       {
         "id": 8,
-        "name": "MERN Stack Project 2",
-        "des": "Another MERN project",
-        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+        "name": "Pet Care Tips & Stories",
+        "des": "PAWSAGE is a pet tips and stories sharing website. There we can create pet tips and stories post and manipulate that as well. This website and premium features like create premium post and normal user don't access this posts. There are two user ADMIN and USER. This two role have different access this website. This website have authentication and authorization system. This website like social media like there can like, comment, share post ass well. Follow other user as well.",
+        "ProjectDescription": "PAWSAGE is an engaging platform dedicated to pet enthusiasts where users can share tips and stories about their pets. The website allows users to create, edit, and manage posts related to pet care, training, and experiences. It also includes premium features that enable users to create exclusive content accessible only to premium members.The platform supports two types of users: ADMIN and USER. Each role has distinct access levels and permissions. Admins have comprehensive control over the content and user management, while regular users can interact with the content based on their access level.PAWSAGE incorporates a robust authentication and authorization system to ensure secure access and data integrity. It functions similarly to social media platforms, allowing users to like, comment, and share posts. Additionally, users can follow other members to stay updated with their latest posts and activities.Key features of PAWSAGE include:User Roles: Differentiated access for ADMIN and USER roles.Authentication and Authorization: Secure login and access control.Content Creation: Users can create, edit, and delete posts.Premium Content: Exclusive posts for premium members.Social Interactions: Like, comment, and share posts.User Following: Follow other users to see their posts in your feed.PAWSAGE aims to build a community of pet lovers where they can share valuable insights and heartwarming stories, fostering a supportive and informative environment.",
+        "img": "https://res.cloudinary.com/drojlcuyf/image/upload/v1729704758/PawSage_glhekb.png",
+        "technologies": [
+          "Next.js",
+          "Tanstack Query",
+          "Typescript",
+          "Farmer Motion",
+          "Lucid Icons",
+          "Next.ui",
+          "Tailwind CSS",
+          "React Quill",
+          "Sonnar",
+          "Firebase",
+          "JSPDF",
+          "ZOD",
+          "React Hook Form",
+          "Moment.js",
+          "Tailwind CSS Animate"
+        ]
       },
+
       {
         "id": 9,
-        "name": "MERN Stack Project 2",
-        "des": "Another MERN project",
-        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+        "name": "Laptop Zone BD",
+        "des": "The Dell XPS 13 is a premium ultrabook that combines power, portability, and elegant design. This laptop is perfect for professionals, students, and anyone who values performance on the go. With its sleek body, stunning display, and robust specifications, the XPS 13 is designed to meet all your computing needs.",
+        "ProjectDescription": "Key Features of Our Website Add Item Section: Easily add new laptops to your collection through our user-friendly Add Item section.View and Manage Products: Keep track of the laptops you've added and view them anytime. You can also delete any unwanted items with just a few clicks.Restock and Update Items: Need to update your stock? No problem! Our platform allows you to restock and update your items effortlessly.Deliver Section: Keep track of deliveries. As you deliver your laptops, the stock count will automatically adjust.Manage Items Section: View all your items in one place, where you can add, delete, and manage your products conveniently.Categories Section: Explore laptops by category! Our website has a dedicated Categories section where you can browse by type, brand, or specifications.With [Your Laptop Website Name], managing your laptops has never been easier. Explore, manage, and keep your inventory up-to-date with our advanced tools, all designed to give you the best possible experience.",
+        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg",
+        "technologies": [
+          "javaScript",
+          "React Js",
+          "React Router Dom",
+          "axios",
+          "typeWriter",
+          "React lottes",
+          "react bootstrap",
+          "Node.js",
+          "express.js",
+          "Firebase",
+          "react-slick",
+          "react-hook-form",
+          "react-firebase-hooks"
+
+        ]
       },
+
       {
         "id": 10,
-        "name": "MERN Stack Project 2",
+        "name": "Car zone",
         "des": "Another MERN project",
-        "img": "https://i.ibb.co/TqCnZrN/localhost-3000-14.jpg"
+        "img": "https://res.cloudinary.com/drojlcuyf/image/upload/v1729707362/CarZOne_qzierc.png"
       },
       {
         "id": 11,
@@ -106,7 +175,8 @@
         "name": "Frontend Project 2",
         "des": "Another frontend project",
         "img": "https://i.ibb.co/v3V0Bbr/127-0-0-1-5500-index-html.png"
-      }, {
+      },
+      {
         "id": 18,
         "name": "Frontend Project 2",
         "des": "Another frontend project",

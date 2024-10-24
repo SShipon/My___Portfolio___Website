@@ -59,7 +59,12 @@ const Navbar = () => {
        {navItems}
       </ul>
     </div>
-    <a className=" normal-case text-xl text-white p-2 lg:p-0">Shipon</a>
+    <a  style={{
+              background:
+                "linear-gradient(90deg, #3f1eff, #f459ff, #fc6a93, #fff2a2)",
+              WebkitBackgroundClip: "text",
+              WebkitTextFillColor: "transparent",
+            }} className="  text-xl uppercase font-bold text-white p-2 lg:p-0">Shipon</a>
   </div>
   <div className="navbar-center hidden lg:flex">
     <ul className="menu menu-horizontal px-1 font-semibold">
