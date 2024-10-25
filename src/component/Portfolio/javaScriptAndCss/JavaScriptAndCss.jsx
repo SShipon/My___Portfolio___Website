@@ -1,39 +1,28 @@
-import { useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
+import { AuthContext } from "../../../context/useContextProjects";
 import JsAndCss from "./JsAndCss";
 
 const JavaScriptAndCss = () => {
-  const [projects, setProjects] = useState(null);
-  const [loading, setLoading] = useState(true); 
-
-  // Fetch JSON Data
-  useEffect(() => {
-    fetch("projects.json")
-      .then((res) => res.json())
-      .then((data) => {
-        setProjects(data.categories);
-        setTimeout(() => {
-          setLoading(false);
-        }, 4000);
-      });
-  }, []);
+  const {getFilteredProjects}= useContext(AuthContext)
+  const javaScript = getFilteredProjects('javaScript');
+  
+   const [loading, setLoading] = useState(true); 
+   
 
   return (
     <div>
-   
-      {loading ? (
-        <p className="text-white text-7xl">.....loading</p>
-      ) : (
-        <>
-      
+  
+     
+          {/* JavaScript Projects */}
           <div className="mt-6">
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-              {projects?.javascript?.map((project) => (
-                <JsAndCss key={project.id} project={project} />
+  
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-6">
+              {javaScript?.map((js) => (
+                <JsAndCss key={js._id} js={js} />
               ))}
             </div>
           </div>
-        </>
-      )}
+       
     </div>
   );
 };

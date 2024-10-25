@@ -3,7 +3,7 @@
 
 
 const Service = ({ professional }) => {
-  console.log(professional)
+  // console.log(professional)
   const { name, description, icon, bgClass } = professional;
   
   return (

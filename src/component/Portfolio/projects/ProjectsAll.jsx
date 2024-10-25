@@ -1,54 +1,29 @@
-import { useEffect, useState } from "react";
+import { useContext, useState } from "react";
+import { AuthContext } from "../../../context/useContextProjects";
 import AllProject from "./AllProject";
 
 const ProjectsAll = () => {
-  const [projects, setProjects] = useState(null);
-
-  // Fetch JSON Data
-  useEffect(() => {
-    fetch("projects.json")
-      .then((res) => res.json())
-      .then((data) => setProjects(data.categories));
-  }, []);
+  const {getFilteredProjects}= useContext(AuthContext)
+  const fullStacks = getFilteredProjects('fullStack');
+  const frontend  = getFilteredProjects('frontend');
+  const javaScript = getFilteredProjects('javaScript');
+  const allProjects = [...frontend , ...fullStacks, ...javaScript];
+   
 
   return (
     <div>
-    {/* Loading state */}
-    {!projects ? (
-      <p className="text-white text-7xl">.....loading</p>
-    ) : (
-      <>
+  
+     
+          
+         <div className="mt-6">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-y-6">
+              {allProjects?.map((project) => (
+                <AllProject key={project._id} project={project} />
+              ))}
+            </div>
+          </div> 
        
-      
-    <div className="mt-6">
-     {/* MERN Stack Projects */}
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5  ">
-          {projects.mernStack.map((project) => (
-            <AllProject key={project.id} project={project} />
-          ))}
-        </div> 
-
-    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5 my-4">
-          {projects.javascript.map((project) => (
-            <AllProject key={project.id} project={project} />
-          ))}
-        </div>
-
-       
-      
-       
-
-        {/* Frontend Projects */}
-       
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
-          {projects.frontend.map((project) => (
-            <AllProject key={project.id} project={project} />
-          ))}
-        </div>
     </div>
-      </>
-    )}
-  </div>
   );
 };
 

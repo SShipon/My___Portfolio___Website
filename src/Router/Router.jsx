@@ -1,15 +1,16 @@
 import { createBrowserRouter } from "react-router-dom";
 import Main from "../Layout/Main";
 import React, { lazy } from "react";
+import BlogFrom from "../component/Blogs/BlogFrom";
 
 // Lazy load components
 const About = lazy(() => import("../component/About/About"));
 const Portfolio = lazy(() => import("../component/Portfolio/Portfolio"));
 const Contact = lazy(() => import("../component/Contact/Contact"));
-const Coming = lazy(() => import("../component/Coming/Coming"));
 const Home = lazy(() => import("../component/Home/Home"));
 const Details = lazy(() => import("../component/Portfolio/details/Details"));
 const Services = lazy(() => import("../component/services/Services"));
+const Blogs = lazy(() => import("../component/Blogs/Blogs"));
 
 export const router = createBrowserRouter([
   {
@@ -36,6 +37,7 @@ export const router = createBrowserRouter([
         path: "/details/:id",
         element: <Details />,
       },
+      
       {
         path: "/contact",
         element: <Contact />,
@@ -45,8 +47,13 @@ export const router = createBrowserRouter([
         element: <Services />,
       },
       {
-        path: "/coming",
-        element: <Coming />,
+         path:"/blogFrom",
+         element:<BlogFrom />
+      },
+
+      {
+        path: "/blogs",
+        element: <Blogs />,
       },
     ],
   },

@@ -56,7 +56,7 @@ const Contact = () => {
           className="my-10"
         >
                         <h2
-        class="text-white text-center [leading-trim:both] [text-edge:cap] lg:text-5xl text-xl not-italic font-semibold leading-[normal] font-outfit relative my-10 uppercase"
+        className="text-white text-center [leading-trim:both] [text-edge:cap] lg:text-5xl text-xl not-italic font-semibold leading-[normal] font-outfit relative my-10 uppercase"
       >
        CONTACT US
         <svg
@@ -65,7 +65,7 @@ const Contact = () => {
           height="18"
           viewBox="0 0 256 18"
           fill="none"
-          class="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2"
+          className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2"
         >
           <path
             d="M253 15.0003C192 0.000329018 75 0.000244617 3 11.0003"

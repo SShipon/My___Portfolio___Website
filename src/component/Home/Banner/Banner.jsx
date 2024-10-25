@@ -2,6 +2,8 @@ import { Cursor, useTypewriter } from "react-simple-typewriter";
 import resume from "../../../assets/Shipon resume (3).pdf";
 import BannerAnimate from "./BannerAnimate";
 import Icons from "../../../shared/Icons/Icons";
+import { motion } from "framer-motion";
+import { fadeIn } from "../../../hooks/variant";
 
 const Banner = () => {
   const [text] = useTypewriter({
@@ -36,7 +38,14 @@ const Banner = () => {
           </span>
         </h1>
         <br />
-        <p className="text-white lg:w-2/3 text-lg  lg:text-xl">
+        <motion.div
+variants={fadeIn("right", 0)}
+initial="hidden"
+whileInView={"show"}
+viewport={{ once: false, amount: 0.7 }}
+className="my-2"
+>
+<p className="text-white lg:w-2/3 text-lg  lg:text-xl">
           I am Professional{" "}
           <span
             className="font-semibold"
@@ -57,6 +66,8 @@ const Banner = () => {
             }}>Frontend And Backend </span>Web
           Development Skills Based on Client Desire.
         </p>
+</motion.div>
+        
         <br />
         <div>
           <a href={resume} download>
@@ -78,3 +89,6 @@ const Banner = () => {
 };
 
 export default Banner;
+
+
+

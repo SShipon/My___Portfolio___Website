@@ -1,4 +1,5 @@
 import About from "../About/About";
+import Blogs from "../Blogs/Blogs";
 import Contact from "../Contact/Contact";
 import Portfolio from "../Portfolio/Portfolio";
 import Services from "../services/Services";
@@ -10,6 +11,7 @@ const Home = () => {
             <Banner></Banner>
             <Portfolio />
             <Contact />
+            <Blogs />
              <Services />
             <About/>
         </div>

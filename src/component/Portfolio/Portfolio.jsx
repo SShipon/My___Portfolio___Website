@@ -1,10 +1,11 @@
 import { useState } from "react";
 import './portfolio.css'
 import FullStacks from "./FullStack/FullStacks";
-import JavaScriptAndCss from "./javaScriptAndCss/JavaScriptAndCss";
 import { motion } from "framer-motion";
 import { fadeIn } from '../../hooks/variant';
 import ProjectsAll from "./projects/ProjectsAll";
+import MainFrontend from "./frontend/MainFrontend";
+import JavaScriptAndCss from "./javaScriptAndCss/JavaScriptAndCss";
 
 
 const Portfolio = () => {
@@ -30,7 +31,7 @@ const Portfolio = () => {
           className="my-10"
         >
                         <h2
-        class="text-white text-center [leading-trim:both] [text-edge:cap] lg:text-5xl text-xl not-italic font-semibold leading-[normal] font-outfit relative my-10 uppercase"
+        className="text-white text-center [leading-trim:both] [text-edge:cap] lg:text-5xl text-xl not-italic font-semibold leading-[normal] font-outfit relative my-10 uppercase"
       >
 Latest All Projects
         <svg
@@ -39,7 +40,7 @@ Latest All Projects
           height="18"
           viewBox="0 0 256 18"
           fill="none"
-          class="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2"
+          className="absolute bottom-[-20px] left-1/2 transform -translate-x-1/2"
         >
           <path
             d="M253 15.0003C192 0.000329018 75 0.000244617 3 11.0003"
@@ -71,25 +72,25 @@ Latest All Projects
             className={toggleState === 1 ? "tabs active-tabs" : "tabs rounded-l-2xl"}
             onClick={() => toggleTab(1)}
           >
-          <span className="text-xs font-extrabold  lg:text-lg"> All </span>
+          <span className="text-xs lg:font-extrabold  lg:text-lg"> All </span>
           </button>
           <button
             className={toggleState === 2 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(2)}
           >
-          <span className="text-xs font-extrabold  lg:text-lg"> Js & CSS</span>
+          <span className="text-xs lg:font-extrabold  lg:text-lg"> Js & CSS</span>
           </button>
           <button
             className={toggleState === 3 ? "tabs active-tabs" : "tabs"}
             onClick={() => toggleTab(3)}
           >
-         <span className="text-xs font-extrabold  lg:text-lg"> Frontend  </span>
+         <span className="text-xs lg:font-extrabold  lg:text-lg"> Frontend  </span>
           </button>
           <button
             className={toggleState === 4 ? "tabs active-tabs" : "tabs rounded-r-2xl"}
             onClick={() => toggleTab(4)}
           >
-         <span className="text-xs font-extrabold  lg:text-lg  ">  Full Stack </span>
+         <span className="text-xs lg:font-extrabold  lg:text-lg  ">  Full Stack </span>
           </button>
         </div>
   
@@ -97,7 +98,7 @@ Latest All Projects
           <div
             className={toggleState === 1 ? "content  active-content" : "content"}
           >
-          <ProjectsAll />
+         <ProjectsAll /> 
           
           </div>
   
@@ -113,8 +114,7 @@ Latest All Projects
             className={toggleState === 3 ? "content  active-content" : "content"}
           >
            
-            <hr />
-             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Impedit, alias.</p>
+           <MainFrontend />
           </div>
           <div
             className={toggleState === 4 ? "content  active-content" : "content rounded-full"}
