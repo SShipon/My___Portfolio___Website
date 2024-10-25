@@ -7,7 +7,13 @@ const Blogs = () => {
   console.log(blogs)
   return (
     <div>
-      <h2>Blog List</h2>
+      Insights & Articles"
+"Explore Our Blogs"
+"Recent Blog Updates"
+"From Our Blog"
+"Discover Our Insights"
+"Blog Highlights"
+"What's New in Our Blo
       <ul>
         {blogs.map(blog => (
           <li key={blog.id}>{blog.title}</li>
